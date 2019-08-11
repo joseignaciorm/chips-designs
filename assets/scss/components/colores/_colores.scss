@@ -1,0 +1,78 @@
+.items-color{
+    border: $border;
+    padding: 1rem;
+}
+
+.item-color{
+    width: 250px;
+    height: 40%;
+    margin-bottom: .5rem;
+    border: $border;
+}
+
+.items-color p, h2{
+    padding-left: .5rem;
+}
+
+.items-container{
+    min-height: 100vh;
+    padding-bottom: 5rem;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 3fr 3fr 3fr;
+    grid-gap: 1rem;
+}
+
+// items-color-container
+.items-color-container .color-item-principal{
+    background: #FFB80C;
+}
+
+.items-color-container .color-item-principal-alt{
+    background: #F2A30C;
+}
+
+.items-color-container .color-item-secundario{
+    background: #FFE23F;
+}
+
+.items-color-container .color-item-secundario-alt{
+    background: #C6B031;
+}
+
+.items-color-container .color-item-terciario{
+    background: #E5362D;
+}
+
+.items-color-container .color-item-terciario-alt{
+    background: #DB1F15;
+}
+
+.items-color-container .color-item-enfasis{
+    background: #ff8000;
+}
+
+.items-color-container .color-item-enfasis-alt{
+    background: #E07200;
+}
+
+.items-color-container .color-item-oscuro{
+    background: #331F11;
+}
+
+
+.items-color-container .color-item-oscuro-alt{
+    background: #191C1F;
+}
+
+.items-color-container .color-item-border{
+    background: #DFE0BF;
+}
+
+.items-color-container .color-item-texto{
+    background: #382215;
+}
+
+.items-color-container .color-item-body-bg{
+    background: #F1F5CA;
+}

@@ -1,0 +1,41 @@
+// BREAKPOINTS and Mixins
+$breakpoints: (
+    small: 0px,
+    medium: 640px,
+    large: 1024px,
+    xlarge: 1200px,
+    xxlarge: 1440,
+);
+
+
+// MIXIN PARA MEDIA QUERIES
+@mixin rwd($bp) {
+    // map-has-key devuelve true si un mapa contiene un key
+    @if map-has-key($breakpoints, $bp) {
+
+        @media screen and (min-width: map-get($breakpoints, $bp)) {
+            @content;
+        }
+    } @else {
+
+            @media screen and (min-width: $bp) {
+                @content;
+            }
+     }
+}
+
+
+// MIXIN PARA LOS TAMAÑOS DE CAJAS 16:9 
+@mixin ratio($w, $h) {
+    display: grid;
+    grid-template-columns: repeat($w, 1fr);
+    grid-template-rows: repeat($h,1fr);
+    position: relative;
+
+    &::before {
+        content: "";
+        display: block;
+        padding-bottom: 100%;
+    }
+    
+}

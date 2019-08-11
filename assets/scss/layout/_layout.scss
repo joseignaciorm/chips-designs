@@ -1,0 +1,39 @@
+// ESTILOS GENERALES DEl CONTEINER
+.l-container{
+    display: grid;
+    grid-gap: .5rem 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+}
+
+// ESTILOS GENERALES DE LAS SECCIONES
+.l-section {
+    margin-bottom: 2rem;
+}
+
+.center-block {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-content {
+    text-align: center; 
+}
+
+//Anchos personalizados
+
+:root {
+    --width: 50%;
+}
+
+.middle-width {
+    width: var(--width);
+}
+
+.max-width {
+    --width: 100%;
+    width: var(--width);
+}
