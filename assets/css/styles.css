@@ -4,10 +4,14 @@
   --color-principal-alt: #F2A30C;
   --color-secundario: #FFE23F;
   --color-secundario-alt: #C6B031;
-  --color-terciario: #E5362D;
-  --color-terciario-alt: #DB1F15;
+  --color-terciario: #f06850;
+  --color-terciario-alt-1: #E5362D;
+  --color-terciario-alt-2: #DB1F15;
   --color-enfasis: #ff8000;
   --color-enfasis-alt: #E07200;
+  --color-enfasis-alt-secondary: #ff6811;
+  --color-enfasis: #86f5cc;
+  --color-enfasis-alt-2: #19e098;
   --color-oscuro: rgb(41, 25, 14);
   --color-oscuro-alt: #191C1F;
   --color-border: #DFE0BF;
@@ -28,6 +32,8 @@
 :root {
   --body-font-size: 1rem;
   --small-font-size: .75rem;
+  --medium-font-size: 1.5rem;
+  --large-font-size: 2.5rem;
   --h1-font-size: 2rem;
   --h2-font-size: 1.5rem;
   --h3-font-size: 1.1rem; }
@@ -117,6 +123,9 @@ img {
 .center-content {
   text-align: center; }
 
+.left-content {
+  text-align: left; }
+
 :root {
   --width: 50%; }
 
@@ -130,6 +139,40 @@ img {
 /* Estilos del THEME */
 .small {
   font-size: var(--small-font-size); }
+
+.medium {
+  font-size: var(--medium-font-size); }
+
+.large {
+  font-size: var(--large-font-size); }
+
+.default-color {
+  color: var(--color-texto); }
+
+.m-top {
+  margin-top: 1em; }
+
+.m-top-sect {
+  margin-top: 2.5rem; }
+
+.buttom-1 {
+  margin-top: .5em;
+  padding: .5rem 1rem;
+  text-decoration: none;
+  border: 1px solid var(--color-oscuro);
+  border-radius: 5px;
+  background-color: var(--color-enfasis-alt-secondary);
+  -webkit-transition: background-color .2s;
+  -o-transition: background-color .2s;
+  transition: background-color .2s; }
+
+.buttom-1:hover {
+  background-color: var(--color-enfasis-alt); }
+
+.border__bottom {
+  display: block;
+  width: 50%;
+  border-bottom: 2px solid var(--color-enfasis-alt-2); }
 
 .items-color {
   border: 1px solid var(--color-border);
@@ -168,9 +211,12 @@ img {
   background: #C6B031; }
 
 .items-color-container .color-item-terciario {
+  background: #f06850; }
+
+.items-color-container .color-item-terciario-alt-1 {
   background: #E5362D; }
 
-.items-color-container .color-item-terciario-alt {
+.items-color-container .color-item-terciario-alt-2 {
   background: #DB1F15; }
 
 .items-color-container .color-item-enfasis {
@@ -178,6 +224,12 @@ img {
 
 .items-color-container .color-item-enfasis-alt {
   background: #E07200; }
+
+.items-color-container .color-item-enfasis-2 {
+  background: #86f5cc; }
+
+.items-color-container .color-item-enfasis-alt-2 {
+  background: #19e098; }
 
 .items-color-container .color-item-oscuro {
   background: #331F11; }
@@ -198,9 +250,14 @@ img {
 .main-header {
   position: relative;
   height: 7rem;
-  background: var(--color-secundario-alt);
+  background: var(--color-enfasis-alt-secondary);
   color: var(--color-body-bg);
   border-bottom: 1px solid var(--color-border); }
+
+.main__container {
+  -ms-grid-rows: .5fr 1fr .5fr;
+  grid-template-rows: .5fr 1fr .5fr;
+  min-height: 100vh; }
 
 /* Main logo */
 .img-logo-content {
@@ -241,10 +298,11 @@ img {
   margin: 0;
   padding: 0;
   position: absolute;
+  z-index: var(--z-modal);
   top: 7rem;
   left: 0;
   min-width: 50vw;
-  background: var(--color-secundario-alt);
+  background: var(--color-enfasis-alt-secondary);
   min-height: 100vh;
   -webkit-transition: -webkit-transform .5s;
   transition: -webkit-transform .5s;
@@ -356,9 +414,209 @@ img {
   justify-content: center; }
 
 /* ************ FOOTER AFTER END ************* */
-.main__container {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-rows: .5fr 1fr .5fr;
-  grid-template-rows: .5fr 1fr .5fr;
-  min-height: 100vh; }
+/***********  
+   ***** Banner slider home ********
+************/
+.main_banner {
+  width: 100%; }
+
+.main_banner__slider {
+  width: 100%;
+  height: 600px;
+  margin: 0 auto;
+  position: relative; }
+  .main_banner__slider [class^="slider-"] {
+    position: absolute;
+    width: 100%;
+    height: 100%; }
+  .main_banner__slider--brand {
+    display: inline-block;
+    padding-bottom: .3em; }
+  .main_banner__slider--content {
+    position: relative;
+    padding: 1rem;
+    text-align: center;
+    background: rgba(134, 245, 204, 0.4);
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .main_banner__slider--hero-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center; }
+
+/**************
+      ******* Animation Slider ********** 
+    *****************************************/
+.slider-1 {
+  -webkit-animation: slider-1 40s infinite;
+  animation: slider-1 40s infinite; }
+
+@-webkit-keyframes slider-1 {
+  0%, 20%, 99% {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); }
+  24% {
+    -webkit-clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
+    clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%); }
+  25%, 95% {
+    -webkit-clip-path: polygon(0 0, 0 0, 0 100%, 0 100%);
+    clip-path: polygon(0 0, 0 0, 0 100%, 0 100%); } }
+
+@keyframes slider-1 {
+  0%, 20%, 99% {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); }
+  24% {
+    -webkit-clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
+    clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%); }
+  25%, 95% {
+    -webkit-clip-path: polygon(0 0, 0 0, 0 100%, 0 100%);
+    clip-path: polygon(0 0, 0 0, 0 100%, 0 100%); } }
+
+.slider-2 {
+  -webkit-animation: slider-2 40s infinite;
+  animation: slider-2 40s infinite; }
+
+@-webkit-keyframes slider-2 {
+  0%, 45%, 100% {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); }
+  49% {
+    -webkit-clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
+    clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%); }
+  50%, 96% {
+    -webkit-clip-path: polygon(0 0, 0 0, 0 100%, 0 100%);
+    clip-path: polygon(0 0, 0 0, 0 100%, 0 100%); } }
+
+@keyframes slider-2 {
+  0%, 45%, 100% {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); }
+  49% {
+    -webkit-clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
+    clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%); }
+  50%, 96% {
+    -webkit-clip-path: polygon(0 0, 0 0, 0 100%, 0 100%);
+    clip-path: polygon(0 0, 0 0, 0 100%, 0 100%); } }
+
+.slider-3 {
+  -webkit-animation: slider-3 40s infinite;
+  animation: slider-3 40s infinite; }
+
+@-webkit-keyframes slider-3 {
+  0%, 70% {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); }
+  74% {
+    -webkit-clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
+    clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%); }
+  75%, 100% {
+    -webkit-clip-path: polygon(0 0, 0 0, 0 100%, 0 100%);
+    clip-path: polygon(0 0, 0 0, 0 100%, 0 100%); } }
+
+@keyframes slider-3 {
+  0%, 70% {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); }
+  74% {
+    -webkit-clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
+    clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%); }
+  75%, 100% {
+    -webkit-clip-path: polygon(0 0, 0 0, 0 100%, 0 100%);
+    clip-path: polygon(0 0, 0 0, 0 100%, 0 100%); } }
+
+/**************
+      ******* Animation Slider ********** 
+    *****************************************/
+/***********  
+   ***** Banner slider home end ********
+************/
+.seo--image {
+  display: block;
+  margin: 0 auto; }
+
+/*********** Seo Home *****************/
+/************** Section 1 - Block one - HOME ****************/
+.seo__home {
+  padding: 1em; }
+  .seo__home--bg-image {
+    background-image: -webkit-linear-gradient(309deg, #9fb8ad 0%, #86f5cc 51%, #19e098 75%);
+    background-image: -o-linear-gradient(309deg, #9fb8ad 0%, #86f5cc 51%, #19e098 75%);
+    background-image: linear-gradient(141deg, #9fb8ad 0%, #86f5cc 51%, #19e098 75%); }
+
+.color-home-title-1 {
+  color: var(--color-enfasis-alt-2); }
+
+.color-home-title-2 {
+  color: var(--color-terciario-alt-1); }
+
+.seo__home--link-in {
+  color: var(--color-principal-alt);
+  -webkit-transition: color .3s;
+  -o-transition: color .3s;
+  transition: color .3s; }
+  .seo__home--link-in:hover {
+    color: var(--color-principal); }
+
+.seo__definition [class^="seo__definition--blk"] {
+  background-image: -webkit-linear-gradient(309deg, #9fb8ad 0%, #86f5cc 51%, #19e098 75%);
+  background-image: -o-linear-gradient(309deg, #9fb8ad 0%, #86f5cc 51%, #19e098 75%);
+  background-image: linear-gradient(141deg, #9fb8ad 0%, #86f5cc 51%, #19e098 75%);
+  border-radius: 5px;
+  padding: 1em;
+  margin-bottom: 1em; }
+
+.seo__definition--items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-radius: inherit;
+  padding: inherit;
+  background-color: var(--color-body-bg); }
+
+/************** Section 1 -  Block two - HOME ****************/
+.seo__home--block-2,
+.seo__home--block-4 {
+  padding: 1em;
+  background-color: var(--color-enfasis-2); }
+
+/************** Section 1 -  Block three - HOME ****************/
+.seo__home--block-3,
+.web__home--block-2 {
+  padding: 1em; }
+
+/************** Section 1 -  Block four - HOME ****************/
+.seo__home--block-4 .seo__home--article-block-4 {
+  padding-top: 2.5em;
+  padding-bottom: 2.5em; }
+
+/*********** Seo Home END*****************/
+/*********** Web Home *****************/
+.web__home--block-1 {
+  padding: 1em; }
+
+/*********** Web Home END*****************/

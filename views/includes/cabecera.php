@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 
-    <title>Diseño web | Posiciona web - SEO</title>
+    <title>Diseño web y posicionamiento web-seo</title>
 
                         <!-- METADATOS -->
     <meta charset="UTF-8">
@@ -34,11 +34,11 @@
 
     <nav class="main-navbar" id="main-navbar">
         <ul class="navbar--menu">
-            <li class="navbar__item"><a class="navbar__link" href="http://">Home</a></li>
+            <li class="navbar__item"><a class="navbar__link" href="home">Home</a></li>
             <li class="navbar__item" id="navbar__item"><a class="navbar__link servicios" href="http://">Servicios</a>
                 <ul class="navbar--child" id="navbar--child">
-                    <li class="navbar__item--child"><a class="navbar__link--child" href="http://">Diseño web</a></li>
-                    <li class="navbar__item--child last-child"><a class="navbar__link--child" href="http://">Posicionamiento SEO</a></li>
+                    <li class="navbar__item--child"><a class="navbar__link--child" href="diseño-web">Diseño web</a></li>
+                    <li class="navbar__item--child last-child"><a class="navbar__link--child" href="posicionamiento-seo">Posicionamiento SEO</a></li>
                 </ul>
             </li>
             <li class="navbar__item"><a class="navbar__link" href="http://">Chips Designs</a></li>

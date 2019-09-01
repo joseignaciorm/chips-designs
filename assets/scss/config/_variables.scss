@@ -6,6 +6,8 @@ $header-height: 7rem;
 $border-color: var(--color-border);
 $min-width-main-navbar: 50vw;
 $letter-spacing: 1px;
+$padding-main-content: 1em;
+
 
 
 
@@ -16,10 +18,14 @@ $letter-spacing: 1px;
     --color-principal-alt: #F2A30C;
     --color-secundario: #FFE23F;
     --color-secundario-alt: #C6B031;
-    --color-terciario: #E5362D;
-    --color-terciario-alt: #DB1F15;
+    --color-terciario: #f06850;
+    --color-terciario-alt-1: #E5362D;
+    --color-terciario-alt-2: #DB1F15;
     --color-enfasis: #ff8000;
     --color-enfasis-alt: #E07200;
+    --color-enfasis-alt-secondary: #ff6811;
+    --color-enfasis: #86f5cc; //#d0f8fc
+    --color-enfasis-alt-2: #19e098; //#2cb5e8
     --color-oscuro: rgb(41, 25, 14);
     --color-oscuro-alt: #191C1F;
     --color-border: #DFE0BF;
@@ -32,10 +38,13 @@ $letter-spacing: 1px;
     $color-principal-alt: #F2A30C;
     $color-secundario: #FFE23F;
     $color-secundario-alt: #C6B031;
-    $color-terciario: #E5362D;
-    $color-terciario-alt: #DB1F15;
+    $color-terciario: #f06850;
+    $color-terciario-alt-1: #E5362D;
+    $color-terciario-alt-2: #DB1F15;
     $color-enfasis: #ff8000;
     $color-enfasis-alt: #E07200;
+    $color-enfasis-2: #86f5cc;
+    $color-enfasis-alt-2: #19e098;
     $color-oscuro: rgb(41, 25, 14);
     $color-oscuro-alt: #191C1F;
     $color-border: #DFE0BF;
@@ -64,6 +73,8 @@ $letter-spacing: 1px;
 :root{
     --body-font-size: 1rem;
     --small-font-size: .75rem;
+    --medium-font-size: 1.5rem;
+    --large-font-size: 2.5rem;
     --h1-font-size: 2rem;
     --h2-font-size: 1.5rem;
     --h3-font-size: 1.1rem;

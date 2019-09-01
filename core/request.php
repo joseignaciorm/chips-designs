@@ -8,6 +8,7 @@
         $data = array(
             'home' => array('model' => 'Home', 'view' => 'index', 'controller' => 'HomeController'),
             'posicionamientoSeo' => array('model' => 'Servicio', 'view' => 'posicionamientoSeo', 'controller' => 'ServicioController'),
+            'diseñoWeb' => array('model' => 'Servicio', 'view' => 'diseñoWeb', 'controller' => 'ServicioController')
         );
             
         foreach($data as $key => $components) {

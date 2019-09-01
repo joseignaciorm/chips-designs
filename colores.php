@@ -40,12 +40,18 @@
             <div class="items-color">
                 <div class="item-color color-item-terciario"></div>
                 <h2>Terciario</h2>
+                <p>Hexadecimal: #f06850</p>
+                <p>RGB: </p>
+            </div>
+            <div class="items-color">
+                <div class="item-color color-item-terciario-alt-1"></div>
+                <h2>Terciario Alt 1</h2>
                 <p>Hexadecimal: #E5362D</p>
                 <p>RGB: </p>
             </div>
             <div class="items-color">
-                <div class="item-color color-item-terciario-alt"></div>
-                <h2>Terciario Alt</h2>
+                <div class="item-color color-item-terciario-alt-2"></div>
+                <h2>Terciario Alt 2</h2>
                 <p>Hexadecimal: #DB1F15</p>
                 <p>RGB: </p>
             </div>
@@ -59,6 +65,18 @@
                 <div class="item-color color-item-enfasis-alt"></div>
                 <h2>Enfasis Alt</h2>
                 <p>Hexadecimal: #E07200</p>
+                <p>RGB: </p>
+            </div>
+            <div class="items-color">
+                <div class="item-color color-item-enfasis-2"></div>
+                <h2>Enfasis II</h2>
+                <p>Hexadecimal: #86f5cc</p>
+                <p>RGB: </p>
+            </div>
+            <div class="items-color">
+                <div class="item-color color-item-enfasis-alt-2"></div>
+                <h2>Enfasis Alt II</h2>
+                <p>Hexadecimal: #19e098</p>
                 <p>RGB: </p>
             </div>
             <div class="items-color">

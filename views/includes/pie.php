@@ -5,7 +5,7 @@
                     <h4 class="footer__info--tittle">Chips Designs</h4>
                     <p class="footer__info--txt">
                         Especialistas y autodidactas enfocados en el posicionamiento web - seo, diseño web, desarrollo web y marketing digital.
-                        Nos apaciona la investigación, estar al dia con las actualizaciones para brindar el mejor de los servicios a nuestros clientes.
+                        Nos apaciona la investigación, estar al día con las actualizaciones para brindar el mejor de los servicios a nuestros clientes.
                     </p>
                 </div>
                 <div class="footer__info col__two">

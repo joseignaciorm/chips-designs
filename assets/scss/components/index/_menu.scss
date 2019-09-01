@@ -25,10 +25,11 @@
     margin: 0;
     padding: 0;
     position: absolute;
+    z-index: var(--z-modal);
     top: $header-height;
     left: 0;
     min-width: $min-width-main-navbar;
-    background: var(--color-secundario-alt);
+    background: var(--color-enfasis-alt-secondary);
     min-height: 100vh;
     transition: transform .5s;
     transform: translateX(-100%);

@@ -1,11 +1,5 @@
 .main__container {
-    display: grid;
+    //display: grid;
     grid-template-rows: .5fr 1fr .5fr;
     min-height: 100vh;
-}
-
-.main {
-    //display: grid;
-    //align-content: center;
-    //justify-content: center;
 }

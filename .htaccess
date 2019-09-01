@@ -1,0 +1,4 @@
+RewriteEngine On
+Rewriterule ^home$ index.php?page=home
+Rewriterule ^diseño-web$ index.php?page=diseñoWeb
+Rewriterule ^posicionamiento-seo$ index.php?page=posicionamientoSeo

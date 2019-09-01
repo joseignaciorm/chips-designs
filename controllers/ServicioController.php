@@ -11,6 +11,14 @@
             require_once './views/includes/pie.php';
                 
         }
+
+        public function diseñoWeb() {
+            
+            require_once './views/includes/cabecera.php'; 
+            require_once './views/paginas/diseño-web.php';
+            require_once './views/includes/pie.php';
+                
+        }
         
 }
 
