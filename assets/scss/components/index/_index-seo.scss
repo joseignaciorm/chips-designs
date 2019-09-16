@@ -3,10 +3,15 @@
    /************** Section 1 - Block one - HOME ****************/
 .seo__home {
     padding: $padding-main-content;
+    margin-top: 3em;
 
     &--bg-image {
         //background-color: var(--color-texto);
         background-image: linear-gradient(141deg, #9fb8ad 0%, #86f5cc 51%, #19e098 75%);
+    }
+
+    &--bg-image {
+        width: 75%;margin: 0 auto;
     }
 }
 
@@ -28,31 +33,88 @@
 }
 
 .seo__definition {
+
+    display: grid;
+    grid-template-rows: repeat(12, 1fr);
+    column-gap: 1em;
+
+    @include rwd(800px) {
+        & {
+            grid-template-rows: 1fr;
+            grid-template-columns: repeat(12, 1fr);
+        }
+      }
+
+
     [class^="seo__definition--blk"] {
         //background-color: rgba($color-enfasis-alt-2, .7);
         background-image: linear-gradient(141deg, #9fb8ad 0%, #86f5cc 51%, #19e098 75%);
         border-radius: 5px;
         padding: $padding-main-content;
         margin-bottom: 1em;
+
+        grid-column: span 4;
+        grid-row: span 4;
+
+        @include rwd(xlarge) {
+            & {
+              grid-column: .9 / span 3;
+            }
+          }
     }
 
     &--items {
+        height: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
         border-radius: inherit;
         padding: inherit;
         background-color: var(--color-body-bg);
+
+        @include rwd(800px) {
+            & {
+                align-items: flex-start;
+            }
+          }
     }
 
 }
 
 
-   /************** Section 1 -  Block two - HOME ****************/
+   /************** Section 2 -  Block two - HOME ****************/
 .seo__home--block-2,
 .seo__home--block-4{
     padding: $padding-main-content;
-    background-color: var(--color-enfasis-2);
+}
+
+.seo__home--block-2 {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 1em;
+    row-gap: 1em;
+
+    @include rwd(xlarge) {
+        & {
+            grid-template-rows: 1fr;
+            grid-template-columns: repeat(12, 1fr);
+            
+        }
+    }
+}
+
+[class^="seo__home--col-"] {
+    padding: $padding-main-content;
+    grid-column: span 6;
+    margin-top: 1em;
+}
+
+.seo__home--col-1{
+    background-image: linear-gradient(141deg,#19e098 75%, #86f5cc 51%, #9fb8ad 0%);
+}
+
+.seo__home--col-2{
+    background-image: linear-gradient(141deg, #19e098 75%, #86f5cc 51%, #9fb8ad 0%);
 }
 
    /************** Section 1 -  Block three - HOME ****************/

@@ -12,49 +12,12 @@
 
             <!-- BANNER SECTION -->
     <section class="main_banner">
-        <div class="main_banner__slider">
-            <div class="slider-4">
-                <img class="main_banner__slider--hero-image" src="assets/img/Posicionamiento-web-seo.jpg" alt="Posicionamiento web-seo">
-                <div class="main_banner__slider--content">
-                    <span class="large main_banner__slider--brand">Chips Designs</span>
-                    <h1 class="main_banner__slider--title">Diseño web - Posicionamiento SEO</h1>
-                    <h2 class="main_banner__slider--sub-title">Desarrollamos páginas a medida y aplicamos SEO siguiendo las directrices de google (motor de búsqueda más importante)</h2>
-                    <p class="main_banner__slider--txt">Conóce más de nuestras metodologías de trabajo accediendo la sección de servicios</p>
-                    <a href="" class="main_banner__slider--buttom buttom-1">Servicios</a>
-                </div>
-            </div>
-
-            <div class="slider-3">
-                <img class="main_banner__slider--hero-image" src="assets/img/Posicionamiento-seo.jpg" alt="Posicionamiento seo">
-                <div class="main_banner__slider--content">
-                    <span class="large main_banner__slider--brand">Chips Designs</span>
-                    <h1 class="main_banner__slider--title ">Hacemos posicionamiento web-seo, auditorias de tu negocio</h1>
-                    <h2 class="main_banner__slider--sub-title">Contenido de calidad siguiendo las directrices de google para generar tráfico a tu negocio</h2>
-                    <p class="main_banner__slider--txt">Conóce más de nuestras metodologías de trabajo accediendo la sección de servicios</p>
-                    <a href="posicionamiento-seo" class="main_banner__slider--buttom buttom-1">Servicios</a>
-                </div>
-            </div>
-
-            <div class="slider-2">
-                <img class="main_banner__slider--hero-image" src="assets/img/Diseño-web.jpg" alt="Diseño web">
-                <div class="main_banner__slider--content">
-                    <span class="large main_banner__slider--brand">Chips Designs</span>
-                    <h1 class="main_banner__slider--title ">Desarrollamos paginas web, tiendas on-line, mejoramos la imágen de tu negocio</h1>
-                    <h2 class="main_banner__slider--sub-title">Diseño WEB a medida, además trabajamos con los CMS mas importantes para desarrollar tu sitio web</h2>
-                    <p class="main_banner__slider--txt">Conóce más de nuestras metodologías de trabajo accediendo la sección de servicios</p>
-                    <a href="diseño-web" class="main_banner__slider--buttom buttom-1">Servicios</a>
-                </div>>
-            </div>
-            <div class="slider-1">
-                <img class="main_banner__slider--hero-image" src="assets/img/Posicionamiento-web-seo.jpg" alt="Posicionamiento web-seo">
-                <div class="main_banner__slider--content">
-                    <span class="large main_banner__slider--brand">Chips Designs</span>
-                    <h1 class="main_banner__slider--title ">Diseño web - Posicionamiento SEO</h1>
-                    <h2 class="main_banner__slider--sub-title">Diseño WEB a medida con contenido de calidad siguiendo las directrices de google para el posicionamiento seo</h2>
-                    <p class="main_banner__slider--txt">Accede a nuestra área de servicio y conoce nuestras metodologías</p>
-                    <a href="#anclaSeo" class="main_banner__slider--buttom buttom-1">Servicios</a>
-                </div>
-            </div>
+        <div class="main_banner__slider" id="bannerSlider">
+            
+        </div>
+        <div class="main_banner__slider--slider-btns">
+            <div class="slider-btn" id="prev">&lt;</div>
+            <div class="slider-btn" id="next">&gt;</div>
         </div>
     </section>
             <!-- ************** BANNER SECTION END ****************** -->
@@ -67,7 +30,7 @@
         <div class="l-section">
           <p class="seo__home--txt center-content">Hablaremos un poco de teoría de los fundamentos en posicionamiento SEO y las diferencias entre     Diseño web y desarrollo web</p>
           <h1 class="seo__home--title center-content"><span class="medium default-color">Empecemos por </span><span   class="color-home-title-1">Posicionamiento </span><span class="color-home-title-2">SEO</span></h1>
-          <div class="seo__home--bg-image"><img class="seo__home--image" src="assets/img/Posicionamiento-seo.png" alt="Posicionamiento seo"></div>
+          <div class="seo__home--bg-image center-block"><img class="seo__home--image" src="assets/img/Posicionamiento-seo.png" alt="Posicionamiento seo"></div>
           <h2 class="seo__home--sub-title m-top">¿Qué es <span class="color-home-title-2">SEO</span> y cómo funciona?</h2>
           <span class="border__bottom center-block"></span>
         </div>
@@ -95,16 +58,16 @@
 
             <!-- SEO-HOME SECTION - Block two -->
   <section class="seo__home--block-2 l-section center-content">
-    <article>
-        <div class="seo__home--block-2">
-          <h2 class="seo__home--sub-title m-top">¿Que debes saber antes de contratar a un consultor <span class="color-home-title-2">SEO</span>?</h2>
+    <article class="seo__home--col-1">
+        <div class="">
+          <h2 class="seo__home--sub-title ">¿Que debes saber antes de contratar a un consultor <span class="color-home-title-2">SEO</span>?</h2>
           <span class="border__bottom center-block l-section"></span>
           <p class="left-content">Contratar a un especialista SEO mejoraría tu sitio web e incluso te podrás ahorrar mucho tiempo pero también podría dañar la reputación de tu empreza si contratas a un especialista SEO que haga mal su trabajo.  Dicho esto, antes de tomar la decisión, nuestra recomendación es que dediques un poco de tu tiempo para investigar acerca de los fundamentos básicos que debe tener un experto o consultor SEO, saber  que ventajas  te puede aportar para mejorar tu sitio web y que desventajas podrían traer consecuencias desfavorables si aplicase malas prácticas (lo que podría dañar la imagen y reputación de tu negocio). </p>
         </div>
     </article>
-    <article>
-        <div class="seo__home--block-2">
-          <h2 class="seo__home--sub-title m-top">¿Cuándo contratar a un consultor <span class="color-home-title-2">SEO</span></h2>
+    <article class="seo__home--col-2">
+        <div class="">
+          <h2 class="seo__home--sub-title ">¿Cuándo contratar a un consultor <span class="color-home-title-2">SEO</span></h2>
           <span class="border__bottom center-block l-section"></span>
           <p class="left-content">Contratamos a un especialista SEO cuando queremos mejorar el contenido y experiencia de usuario (UX), la carga y navegación rápida, rediseñar la web o creación de nuevas páginas, aumentar el tráfico orgánico y la visibilidad de tu sitio web. </p>
         </div>

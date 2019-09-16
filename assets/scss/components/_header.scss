@@ -2,7 +2,8 @@
 .main-header{
     position: relative;
     height: $header-height;
-    background: var(--color-enfasis-alt-secondary);
+    //background: var(--color-enfasis-alt-secondary);
+    background-image: linear-gradient(141deg,#19e098, #86f5cc 79%, #19e098 55%);
     color: var(--color-body-bg);
     border-bottom: 1px solid $border-color;  
 }

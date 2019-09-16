@@ -27,7 +27,7 @@
 <!-- main-header__section -->
 <div class="l-container main-header__section">
     <div class="img-logo-content">
-        <img class="img-logo" src="assets/img/Logo-chipsdesigns.png" alt="Logo chips designs">
+        <img class="img-logo" src="assets/img/Logo-ChipsDesings-Sep-2019.png" alt="Logo chips designs">
     </div>
 
     <div class="navbar-toggle" id="navbar-toggle"></div>
