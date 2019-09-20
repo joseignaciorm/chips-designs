@@ -1,5 +1,6 @@
 // ESTILOS GENERALES DEl CONTEINER
 .l-container{
+    max-width: $max-width;
     display: grid;
     grid-gap: .5rem 1rem;
     padding-left: 1rem;
@@ -8,6 +9,23 @@
     margin-right: auto;
     flex-wrap: wrap;
 }
+
+// Anchos personalizados
+@for $i from 1 through 20 {
+    .s-#{$i * 5} {
+        width: #{$i * 5%};
+    }
+}
+
+
+@include rwd(large) {
+    @for $i from 1 through 20 {
+        .l-#{$i * 5} {
+         width: #{$i * 5%};
+        }
+    }
+}
+
 
 // ESTILOS GENERALES DE LAS SECCIONES
 .l-section {

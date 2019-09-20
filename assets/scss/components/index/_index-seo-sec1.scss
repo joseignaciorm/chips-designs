@@ -1,4 +1,8 @@
    
+.seo-title {
+        font-size: 1.6em;
+}
+
    /*********** Seo Home *****************/
    /************** Section 1 - Block one - HOME ****************/
 .seo__home {
@@ -13,22 +17,36 @@
     &--bg-image {
         width: 75%;margin: 0 auto;
     }
+
+    &--title {
+        font-size: var(--h2-font-size);
+    }
+
+    &--sub-title {
+        margin-top: 4em;
+        width: 85vmin;
+    }
+
 }
 
+
+$fontSize: 1.2em; 
 .color-home-title-1{
     color: var(--color-enfasis-alt-2);
+    font-size: $fontSize;
 }
 
 .color-home-title-2{
-    color: var(--color-terciario-alt-1);
+    color: var(--color-terciario-2);
+    font-size: $fontSize;
 }
 
 .seo__home--link-in {
-    color: var(--color-principal-alt);
+    color: var(--color-terciario); 
     transition: color .3s;
 
     &:hover {
-        color: var(--color-principal);
+        color: var(--color-terciario-alt-2);
     }
 }
 
@@ -79,53 +97,26 @@
           }
     }
 
-}
+} /* End seo__definition */
 
 
-   /************** Section 2 -  Block two - HOME ****************/
-.seo__home--block-2,
-.seo__home--block-4{
-    padding: $padding-main-content;
-}
 
-.seo__home--block-2 {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    column-gap: 1em;
-    row-gap: 1em;
 
-    @include rwd(xlarge) {
-        & {
-            grid-template-rows: 1fr;
-            grid-template-columns: repeat(12, 1fr);
-            
-        }
-    }
-}
 
-[class^="seo__home--col-"] {
-    padding: $padding-main-content;
-    grid-column: span 6;
-    margin-top: 1em;
-}
 
-.seo__home--col-1{
-    background-image: linear-gradient(141deg,#19e098 75%, #86f5cc 51%, #9fb8ad 0%);
-}
 
-.seo__home--col-2{
-    background-image: linear-gradient(141deg, #19e098 75%, #86f5cc 51%, #9fb8ad 0%);
-}
 
-   /************** Section 1 -  Block three - HOME ****************/
+   /************** Section 3 -  Block three - HOME ****************/
 .seo__home--block-3,
 .web__home--block-2{
     padding: $padding-main-content;
+    background-image: linear-gradient(141deg,#19e098 75%, #86f5cc 51%, #9fb8ad 0%);
 }
 
-/************** Section 1 -  Block four - HOME ****************/
+/************** Section 4 -  Block four - HOME ****************/
 
 .seo__home--block-4 {
+    padding: $padding-main-content;
     & .seo__home--article-block-4 {
         padding-top: 2.5em;
         padding-bottom: 2.5em;

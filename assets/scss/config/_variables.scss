@@ -1,20 +1,22 @@
-/* VARIABLES */
+/* VARIABLES CSS */
 $borderRadius: 5px;
 $border: 1px solid var(--color-border);
-$max-width: 1200px;
+$max-width: 90%;
 $header-height: 7rem;
 $border-color: var(--color-border);
 $min-width-main-navbar: 50vw;
 $letter-spacing: 1px;
-$padding-main-content: 1em;
+$padding-main-content: 1rem;
+
+/* Variables SCSS */
+:root{
+    --scrollBar: 13px;
+}
 
 
-
-
-
-
-// Paleta de colores 
 :root {
+
+/* Paleta de colores SCSS */
     --color-principal: #FFB80C;
     --color-principal-alt: #F2A30C;
     --color-secundario: #FFE23F;
@@ -22,11 +24,13 @@ $padding-main-content: 1em;
     --color-terciario: #f06850;
     --color-terciario-alt-1: #E5362D;
     --color-terciario-alt-2: #DB1F15;
+    --color-terciario-2: #2cb5e8;
     --color-enfasis: #ff8000;
     --color-enfasis-alt: #E07200;
     --color-enfasis-alt-secondary: #ff6811;
     --color-enfasis: #86f5cc; //#d0f8fc
-    --color-enfasis-alt-2: #19e098; //#2cb5e8
+    --color-enfasis-alt-2: #19e098; //#2cb5e8 #19CC98
+    --color-enfasis-alt-3: #19CC98;
     --color-oscuro: rgb(41, 25, 14);
     --color-oscuro-alt: #191C1F;
     --color-border: #DFE0BF;
@@ -34,7 +38,7 @@ $padding-main-content: 1em;
     --color-body-bg: #F1F5CA;
 }
 
-// Paleta colores SASS
+/* Paleta colores CSS */
     $color-principal: #FFB80C;
     $color-principal-alt: #F2A30C;
     $color-secundario: #FFE23F;

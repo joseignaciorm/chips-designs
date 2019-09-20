@@ -1,7 +1,8 @@
 const navbarToogle = document.getElementById('navbar-toggle'),
       mainNavBar = document.getElementById('main-navbar'),
-      navbarItem = document.getElementById('navbar__item');
-      navbarItemChild = document.getElementById('navbar--child');
+      navbarItem = document.getElementById('navbar__item'),
+      navbarItemChild = document.getElementById('navbar--child')
+
 
 
 navbarToogle.addEventListener('click', () => {
@@ -9,14 +10,16 @@ navbarToogle.addEventListener('click', () => {
 })
 
 navbarItem.addEventListener('click', () => {
-    navbarItemChild.classList.toggle('dropdown__navbar--child');
+    navbarItemChild.classList.toggle('dropdown__navbar--child')
 })
 
 
-/*  Banner slider */
+/**********  
+        * Banner slider *
+        *               *   **************** */
 const nextBtn = document.querySelector('#next'),
       prevBtn = document.querySelector('#prev'),
-      bannerSlider = document.querySelector('#bannerSlider');
+      bannerSlider = document.querySelector('#bannerSlider')
 
 let firstSlide,
     lastSlide;
@@ -136,3 +139,18 @@ let firstSlide,
         nextSibling.classList.add('active')
     })
     
+    /**********  
+        * End banner slider *
+        *               *   **************** */
+
+
+/**********  
+        * Scroll dinámico *
+        *               *   **************** */
+
+const getScrollBarWidth = () => innerWidth - document.documentElement.clientWidth
+document.documentElement.style.setProperty('--scrollBar', getScrollBarWidth())
+
+/**********  
+        * End scroll dinámico *
+        *               *   **************** */

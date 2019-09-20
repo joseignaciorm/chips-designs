@@ -26,13 +26,18 @@
             <!-- ************* SEO-HOME SECTION **************** -->
             <!-- SEO-HOME SECTION - Block one -->
   <section class="seo__home center-content">
-      <article>
+      <article class="l-container">
         <div class="l-section">
-          <p class="seo__home--txt center-content">Hablaremos un poco de teoría de los fundamentos en posicionamiento SEO y las diferencias entre     Diseño web y desarrollo web</p>
-          <h1 class="seo__home--title center-content"><span class="medium default-color">Empecemos por </span><span   class="color-home-title-1">Posicionamiento </span><span class="color-home-title-2">SEO</span></h1>
-          <div class="seo__home--bg-image center-block"><img class="seo__home--image" src="assets/img/Posicionamiento-seo.png" alt="Posicionamiento seo"></div>
-          <h2 class="seo__home--sub-title m-top">¿Qué es <span class="color-home-title-2">SEO</span> y cómo funciona?</h2>
-          <span class="border__bottom center-block"></span>
+            <p class="seo__home--txt center-content m-b">Hablaremos un poco de teoría de los fundamentos en posicionamiento SEO y las diferencias entre       Diseño web y desarrollo web</p>
+            <h1 class="seo__home--title center-content">
+                <span class="default-color medium">Empecemos por </span><span   class="color-home-title-1">Posicionamiento </span><span   class="color-home-title-2">SEO</span>
+            </h1>
+            <div class="seo__home--bg-image center-block"><img class="seo__home--image" src="assets/img/Posicionamiento-seo.png"  alt="Posicionamiento seo"></div>
+        </div>
+
+        <div class="l-section seo__home--sub-title center-block">
+            <h2 class="seo-title icon-location">¿Qué es <span class="color-home-title-2">SEO</span> y cómo funciona?</h2>
+            <span class="border__bottom center-block"></span>   
         </div>
 
         <div class="seo__definition">
@@ -48,7 +53,7 @@
             </div>
             <div class="seo__definition--blk3">
                 <div class="seo__definition--items">
-                    <p class="left-content"><strong>¿Cómo funciona el SEO? =></strong> Existe documentación oficial para saber <a class="seo__home--link-in" href="#(Enlazar a google)          ">optimizar el contenido web</a> siguiendo unas pautas, requerimientos de google y poder aplicarlos en tu negocio. 
+                    <p class="left-content"><strong>¿Cómo funciona el SEO? =></strong> Existe documentación oficial para saber <a class="seo__home--link-in" href="#(Enlazar a google)">optimizar el contenido web</a> siguiendo unas pautas, requerimientos de google y poder aplicarlos en tu negocio. 
                     Se necesita un poco de trabajo, tiempo y dedicación pero quizás lo que realmente te interesa es contratar a un <a           class="seo__home--link-in"  href="posicionamiento-seo">consultor SEO</a> especializado. </p>
                 </div>
             </div>
@@ -57,19 +62,34 @@
   </section>
 
             <!-- SEO-HOME SECTION - Block two -->
-  <section class="seo__home--block-2 l-section center-content">
-    <article class="seo__home--col-1">
-        <div class="">
-          <h2 class="seo__home--sub-title ">¿Que debes saber antes de contratar a un consultor <span class="color-home-title-2">SEO</span>?</h2>
-          <span class="border__bottom center-block l-section"></span>
-          <p class="left-content">Contratar a un especialista SEO mejoraría tu sitio web e incluso te podrás ahorrar mucho tiempo pero también podría dañar la reputación de tu empreza si contratas a un especialista SEO que haga mal su trabajo.  Dicho esto, antes de tomar la decisión, nuestra recomendación es que dediques un poco de tu tiempo para investigar acerca de los fundamentos básicos que debe tener un experto o consultor SEO, saber  que ventajas  te puede aportar para mejorar tu sitio web y que desventajas podrían traer consecuencias desfavorables si aplicase malas prácticas (lo que podría dañar la imagen y reputación de tu negocio). </p>
-        </div>
-    </article>
-    <article class="seo__home--col-2">
-        <div class="">
-          <h2 class="seo__home--sub-title ">¿Cuándo contratar a un consultor <span class="color-home-title-2">SEO</span></h2>
-          <span class="border__bottom center-block l-section"></span>
-          <p class="left-content">Contratamos a un especialista SEO cuando queremos mejorar el contenido y experiencia de usuario (UX), la carga y navegación rápida, rediseñar la web o creación de nuevas páginas, aumentar el tráfico orgánico y la visibilidad de tu sitio web. </p>
+  <section class="seo__home__block-2 l-section center-content">
+    <article class="l-container">
+        <div class="seo__home__block-2--content">
+            <div class="seo__home__block-2--col-1">
+                <div class="seo__home__block-2--items">
+                    <div class="seo__home__block-2--sub-title">
+                        <h2 class="seo-title">¿Qué debes saber antes de contratar a un consultor <span class="color-home-title-2">SEO</span>?  </h2>
+                        <span class="border__bottom center-block l-section"></span>
+                    </div>
+                
+                    <div class="seo__home__block-2--item-description">
+                        <p class="left-content seo__home__block-2--item-txt">Contratar a un especialista SEO mejoraría tu sitio web e incluso te podrás ahorrar muchotiempo     pero      también podría dañar la reputación de tu empreza si contratas a un especialista SEO que haga malsu trabajo.      Dicho esto,   antes    de tomar la decisión, nuestra recomendación es que dediques un poco de tutiempo para investigar     acerca de los   fundamentos     básicos que debe tener un experto o consultor SEO, saber que ventajas  te puede aportar    para mejorar tu  sitio web y que    desventajas podrían traer consecuenciasdesfavorables si aplicase malas prácticas (lo  que podría dañar la     imagen y reputación de   tu negocio). </p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="seo__home__block-2--col-2">
+                <div class="seo__home__block-2--items">
+                    <div class="seo__home__block-2--sub-title">
+                        <h2 class="seo-title">¿Cuándo contratar a un consultor <span class="color-home-title-2">SEO</span>?</h2>
+                        <span class="border__bottom center-block l-section"></span>
+                    </div>
+                
+                    <div class="seo__home__block-2--item-description">
+                        <p class="left-content seo__home__block-2--item-txt">Contratamos a un especialista SEO cuando queremos mejorar el contenido y experiencia de usuario (UX),   la    carga y navegación rápida, rediseñar la web o creación de nuevas páginas, aumentar el tráfico orgánico y la visibilidad     de tu  sitio web. </p>
+                    </div>
+                </div>
+            </div>
         </div>
     </article>
   </section>

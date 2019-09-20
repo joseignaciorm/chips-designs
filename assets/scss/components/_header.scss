@@ -8,3 +8,29 @@
     border-bottom: 1px solid $border-color;  
 }
 
+.main-header__section {
+    @include rwd(large) {
+        & {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            align-items: flex-end;
+            justify-content: center;
+        }
+
+        & .img-logo-content {
+            grid-column: span 3;
+        }
+
+        & .main-navbar {
+            grid-column: span 9;
+        }
+
+    }
+
+    @include rwd(xxlarge) {
+        & .main-navbar {
+            grid-column: 5 / span 8;
+        }
+    }
+}
+

@@ -1,0 +1,20 @@
+.buttom-1 {
+    margin-top: 1em;
+    padding: .5rem 1rem;
+    text-decoration: none;
+    border: 1px solid var(--color-oscuro);
+    border-radius: $borderRadius;
+    color: var(--color-body-bg);
+    background-color: rgba($color-oscuro-alt, .5);
+    transition: background-color .2s;
+}
+
+.buttom-1:hover {
+background-color: rgba($color-oscuro-alt, 1);
+}
+
+.border__bottom{
+display: block;
+width: 35%;
+border-bottom: 2px solid var(--color-enfasis-alt-2);
+}
