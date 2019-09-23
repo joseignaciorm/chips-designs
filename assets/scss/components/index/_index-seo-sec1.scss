@@ -106,26 +106,4 @@ $fontSize: 1.2em;
 
 
 
-   /************** Section 3 -  Block three - HOME ****************/
-.seo__home--block-3,
-.web__home--block-2{
-    padding: $padding-main-content;
-    background-image: linear-gradient(141deg,#19e098 75%, #86f5cc 51%, #9fb8ad 0%);
-}
-
-/************** Section 4 -  Block four - HOME ****************/
-
-.seo__home--block-4 {
-    padding: $padding-main-content;
-    & .seo__home--article-block-4 {
-        padding-top: 2.5em;
-        padding-bottom: 2.5em;
-    }
-}
- /*********** Seo Home END*****************/
-
- /*********** Web Home *****************/
- .web__home--block-1 {
-    padding: $padding-main-content;
- }
- /*********** Web Home END*****************/
+ 

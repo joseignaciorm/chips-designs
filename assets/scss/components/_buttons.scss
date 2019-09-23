@@ -18,3 +18,25 @@ display: block;
 width: 35%;
 border-bottom: 2px solid var(--color-enfasis-alt-2);
 }
+
+
+.btn-info-2 {
+    border: 1px solid var(--color-body-bg);
+    transition: background-color .7s, color .7s;
+
+    &:hover {
+        background-color: var(--color-body-bg);
+        color: var(--color-oscuro);
+    }
+}
+
+
+.btn-web-action {
+    color: var(--color-oscuro);
+    background-color: var(--color-body-bg);
+    transition: background-color .7s, color .7s;
+    
+    &:hover {
+        color: var(--color-body-bg);
+    }
+}

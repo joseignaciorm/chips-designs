@@ -1,5 +1,5 @@
 [class*=icon-]::before {
-    content: "";
+    content: " ";
     display: inline-block;
     margin-right: .15rem;
     width: 1em;
@@ -13,3 +13,10 @@
     
 }
 */
+
+.icon-check::before {
+    background-image: url("../img/check-icon.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
