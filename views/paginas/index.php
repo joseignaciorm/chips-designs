@@ -120,7 +120,7 @@
         <p class="left-content">Organizamos la información, estructuramos el contenido para que sea flexible y fácil de entender por los usuarios que visiten tu sitio. Trabajamos la sencillez evitando contenidos duplicados o de poco valor, es decir, buscamos la excelente experiencia de usuario (UX), para que los que entren en tu página web se puedan sentir a gusto gracias a la agradable visibilidad y usabilidad que percibirán gracias al excelente trabajo realizado. Obteniendo además un buen rendimiento de carga de la web
         favoreciendo el acceso rápido desde cualquier dispositivo móvil.
         </p>
-        <div class="l-section">
+        <div class="l-section seo__home--info-2--btn center-block">
             <a href="posicionamiento-seo" class="buttom-1 btn-info-2">Empecemos</a>
         </div>
 
@@ -138,10 +138,10 @@
 
 
             <!-- ************* Diseño y desarrollo-HOME SECTION **************** -->
-<section class="web__home--block-1 l-section l-container center-content">
+<section class="web__home__sec-1 l-section l-container center-content">
     <h1 class="m-top-sect">Diseño y desarrollo de páginas web</h1>
-    <div class="web__home--items">
-        <article class="">
+    <div class="web__home__sec-1--items">
+        <article class="item-1">
             <div class="m-b">
                 <h2>¿Qué diferencias podemos encontrar entre el Diseño web y el Desarrollo web?</h2>
                 <span class="border__bottom center-block"></span>
@@ -150,7 +150,7 @@
             <p class="left-content">Estos son algunas características fundamentales entre las diferencias de un diseñador de páginas web y un       desarrollador de páginas web. Debemos tener claro y ser conscientes como empresa de que un sitio web requiere un trabajo  en equipo entre       diseñadores y desarrolladores para  poder lograr los objetivos y efectividad.</p>
         </article>
 
-        <article class="l-section">
+        <article class="l-section item-2">
             <div class="m-b">
                 <h2>¿Qué métodos empleamos en chips designs para el diseño web?</h2>
                 <span class="border__bottom center-block"></span>
@@ -167,8 +167,8 @@
                 <li class="list__web-method--items  icon-check">Acabado de diseño y contenido.</li>
                 <li class="list__web-method--items  icon-check">Fin y entrega del proyecto.</li>
             </ul>
-            <div class="">
-                <p>Conoce nuestro flujo de trabajo con más detalle entrando a nuestra sección de <a href="diseño-web" class="buttom-1       btn-web-action">diseño web.</a></p>
+            <div class="web-acction">
+                <p>Conoce nuestro flujo de trabajo con más detalle entrando a nuestra sección de <a href="diseño-web" class="buttom-1     btn-web-action">diseño web.</a></p>
             </div>
         </article>
     </div>

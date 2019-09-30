@@ -1,0 +1,73 @@
+
+/***** Posocionamiento SEO Page ******/
+
+.main__seo-container{
+    $align-text: center;
+    & .banner__top {
+        display: grid;
+        row-gap: 1em;
+        column-gap: 1em;
+        padding: 1.5rem;
+        justify-items: center;
+        align-items: center;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        text-align: $align-text;
+
+        & .btnBannerTop {
+            width: 270px;
+        }
+
+        &--txt {
+            opacity: .8;
+        }
+
+        &--image {
+            width: 90%;
+        }
+
+        @include rwd(medium) {
+
+            & .banner__top--description {
+                $align-text: left;
+                text-align: $align-text;
+            }
+
+        }
+
+
+        @include rwd(large) {
+
+            & {
+                margin-top: 2rem;
+            }
+
+            & {
+                grid-template-columns: repeat(2, 1fr);
+                align-items: flex-start;
+            }
+
+            & .btnBannerTop {
+                margin-left: 0;
+            }
+
+            &--image {
+                
+            }
+        }
+
+        @include rwd(xxlarge) {
+
+            & .btnBannerTop, &--txt {
+                margin-top: 2.2em;
+                margin-bottom: 2.2em;
+            }
+
+        }
+
+    } // End banner top
+
+} // End main seo container
+
+/***** END - Posocionamiento SEO Page ******/

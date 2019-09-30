@@ -4,10 +4,10 @@
     class ServicioController {
 
 
-        public function posicionamientoSeo() {
+        public function consultorSeo() {
             
             require_once './views/includes/cabecera.php'; 
-            require_once './views/paginas/posicionamiento-seo.php';
+            require_once './views/paginas/consultor-seo.php';
             require_once './views/includes/pie.php';
                 
         }

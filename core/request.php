@@ -7,7 +7,7 @@
 
         $data = array(
             'home' => array('model' => 'Home', 'view' => 'index', 'controller' => 'HomeController'),
-            'posicionamientoSeo' => array('model' => 'Servicio', 'view' => 'posicionamientoSeo', 'controller' => 'ServicioController'),
+            'consultorSeo' => array('model' => 'Servicio', 'view' => 'consultorSeo', 'controller' => 'ServicioController'),
             'diseñoWeb' => array('model' => 'Servicio', 'view' => 'diseñoWeb', 'controller' => 'ServicioController')
         );
             

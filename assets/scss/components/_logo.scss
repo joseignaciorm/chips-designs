@@ -2,12 +2,13 @@
 .img-logo-content {
     display: flex; 
     align-items: center;
+    justify-content: flex-start;
     min-height: 100%;
     display: flex;
     align-items: center;
-    line-height: 3rem;
-    height: 6rem;
-    width: 200px;
+    //line-height: 3rem;
+    height: $header-height;
+    width: 170px;
 }
 
 .img-logo {

@@ -38,7 +38,7 @@
                 <li class="navbar__item" id="navbar__item"><a class="navbar__link servicios" id="servicios_link" href="http://">Servicios</a>
                     <ul class="navbar--child" id="navbar--child">
                         <li class="navbar__item--child"><a class="navbar__link--child" href="diseño-web">Diseño web</a></li>
-                        <li class="navbar__item--child last-child"><a class="navbar__link--child" href="posicionamiento-seo">Posicionamiento SEO</a></li>
+                        <li class="navbar__item--child last-child"><a class="navbar__link--child" href="consultor-seo">Posicionamiento SEO</a></li>
                     </ul>
                 </li>
                 <li class="navbar__item"><a class="navbar__link" href="http://">Chips Designs</a></li>
