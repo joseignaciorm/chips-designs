@@ -7,16 +7,22 @@
         display: grid;
         row-gap: 1em;
         column-gap: 1em;
-        padding: 1.5rem;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
         justify-items: center;
         align-items: center;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-        text-align: $align-text;
+        //text-align: $align-text;
+
+        &--description {
+            text-align: $align-text;
+        }
 
         & .btnBannerTop {
-            width: 270px;
+            width: 300px;
+            margin: 0 auto;
         }
 
         &--txt {
@@ -29,10 +35,14 @@
 
         @include rwd(medium) {
 
-            & .banner__top--description {
+            /*& .banner__top--description {
                 $align-text: left;
                 text-align: $align-text;
             }
+
+            & .btnBannerTop {
+                margin: 0;
+            }*/
 
         }
 
@@ -48,7 +58,13 @@
                 align-items: flex-start;
             }
 
+            & .banner__top--description {
+                $align-text: left;
+                text-align: $align-text;
+            }
+
             & .btnBannerTop {
+                width: 350px;
                 margin-left: 0;
             }
 

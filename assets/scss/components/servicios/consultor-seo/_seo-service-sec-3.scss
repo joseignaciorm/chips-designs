@@ -1,0 +1,46 @@
+/* Block seo__service__sec_3 */
+.seo__service__sec_3 {
+    & .content-1 {
+        margin-bottom: 2.5rem;
+    }
+
+    & .content-2 {
+        display: grid;
+        margin-bottom: 2em;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 400px));
+        justify-content: center;
+        justify-items: center;
+        grid-gap: 4.5em 2em;
+
+        &--items {
+            text-align: center;
+            background-color: #ffffff;
+            padding: 1em .5em;
+
+            display: grid;
+            row-gap: .5em;
+            grid-template-rows: 25% 55% 20%;
+
+            & .border__bottom {
+                margin: 1em auto;
+                width: 50%;
+            }
+
+            & .titleBox {
+                grid-row: 50px;
+                align-self: flex-start;
+            }
+
+            & .txtBox {
+                //grid-row: 2 / span 5;
+                align-self: flex-start;
+            }
+
+            & .buttonBox {
+                //grid-row: 7 / span 2;
+                align-self: flex-end;
+            }
+        }
+    }
+}
+/* End Block seo__service__sec_3 */

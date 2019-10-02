@@ -1,22 +1,34 @@
+/* ************** Mixins and custom properties *************** */
 @import 'config/mixins';
 @import 'config/variables';
 
+/* ************** Settings base - theme and layout *************** */
 @import 'base/base';
 @import 'layout/layout';
 @import 'theme/theme';
 @import 'components/colores/colores';
+
+/* ************** Header *************** */
 @import 'components/header';
-@import 'components/index/index-content';
 @import 'components/logo';
 @import 'components/menu';
 @import 'components/footer';
+
+/* ************** Home page *************** */
+@import 'components/index/index-content';
 @import 'components/index/index-banner-slider';
 @import 'components/index/index-seo-sec1';
 @import 'components/index/index-seo-sec2';
 @import 'components/index/seo-home-info-seo';
 @import 'components/index/seo-home-info2-seo';
 @import 'components/index/web-home-sec1';
+
+/* ************** Consultor SEO Page *************** */
 @import 'components/servicios/consultor-seo/main-banner';
 @import 'components/servicios/consultor-seo/seo-service-sec-2';
+@import 'components/servicios/consultor-seo/seo-service-sec-3';
+
+
+/* ************** Utillities *************** */
 @import 'components/icons';
 @import 'components/buttons';

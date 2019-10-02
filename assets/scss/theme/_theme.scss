@@ -11,8 +11,13 @@
     font-size: var(--large-font-size);
 }
 
+/* ******** Border and colors ************** */
 .default-color {
     color: var(--color-texto);
+}
+
+.border-b-sec-color {
+    border-bottom: 1px solid $border-color;
 }
 
 .m-top {
@@ -38,6 +43,8 @@
 .m-b-txt {
     margin-bottom: 1em;
 }
+
+
 
 
 
