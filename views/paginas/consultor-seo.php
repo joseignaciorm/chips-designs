@@ -8,10 +8,10 @@
 
 
 <!-- MAIN CONTAINER -->
-<main class="main__seo-container l-container">
+<main class="main__seo-container ">
 
     <!-- Banner top -->
-    <section class="banner__top border-b-sec-color">
+    <section class="banner__top border-b-sec-color l-container">
         <div class="banner__top--description">
             <h1 class="banner__top--title">Trabajemos juntos y hagamos un excelente posicionamiento <br>web-seo</h1>
             <p class="banner__top--txt">Siguiendo las directrices de google de posicionamiento seo para generar tráfico de valor, aumentar los beneficios de tu negocio y que los usuarios puedan encontrar tu sitio web en las primeras posiciones de búsqueda orgánica.</p>
@@ -27,7 +27,7 @@
     <!-- End banner top -->
 
     <!-- Section 2 -->
-    <section class="seo__service__sec_2 l-section border-b-sec-color">
+    <section class="seo__service__sec_2 l-section border-b-sec-color l-container">
         <!--<div class="item-1 center-block center-content">
             <h1 class="seo__service__sec_2--title">Si quieres mejorar tu contenido y optimización web-seo, empecemos a trabajar para lograr dichos objetivos</h1>
         </div>-->
@@ -48,7 +48,7 @@
     <!-- End section 2 -->
 
     <!-- Section 3 -->
-    <section class="seo__service__sec_3 l-section border-b-sec-color">
+    <section class="seo__service__sec_3  border-b-sec-color">
         <div class="content-1 center-content">
             <h2 class="content-1--title m-b">Técnicas que seguimos para Posicionamiento web</h2>
             <p class="content-1--txt m-b">A continuación hemos seleccionado una pequeña lista relevante de las técnicas empleadas en nuestro flujo de trabajo <br>de <span class="txt-enfasis">Optimización SEO On Page y Off Page.<span></p>

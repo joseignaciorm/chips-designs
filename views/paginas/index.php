@@ -96,8 +96,8 @@
 
             <!-- SEO-HOME SECTION - Block three -->
 <section class="seo__home__info l-section center-content l-container">
-    <article>
-        <h3 class="seo__home__info--title">Algúnos de los puntos importantes que debes tener en cuenta para contratar un consultor SEO </h3>
+    <article class="p-auto">
+        <h3 class="seo__home__info--title m-b">Algúnos de los puntos importantes que debes tener en cuenta <br>para contratar un consultor SEO </h3>
         <ul class="seo__home__info--consultor">
             <li class="seo__home__info--item left-content icon-check">Primero que haga una auditoría de tu web y te diga que se puede mejorar y por qué, y cuáles son los objetivos a alcanzar en tu negocio.</li>
             <li class="seo__home__info--item left-content icon-check">Trabajos que haya realizado y la experiencia con otros clientes.</li>
@@ -113,25 +113,26 @@
 </section>
 
             <!-- SEO-HOME SECTION Info 2 - Block four -->
-<section class="seo__home--info-2 center-content l-section m-top-sect l-container">
-    <article class="seo__home--info-2--col1">
-        <h3>En Chips Designs nos adaptamos a tus necesidades y juntos podemos hacer que no sólo tus amigos o familiares sean los que visiten a tu página web</h3>
-        <p class="left-content">Nos enfocamos en el posicionamiento de tu página web, marca, negocio  o  tienda on-line para que no solo la conozcan tus amigos y familiares. Con trabajo, tiempo y dedicación de nosotros más la colaboración de nuestro cliente para poder adaptarnos a sus necesidades, lo convertiremos en una realidad cumpliendo con los objetivos que previamente hayamos aprobado en una propuesta de negocio.</p>
-        <p class="left-content">Organizamos la información, estructuramos el contenido para que sea flexible y fácil de entender por los usuarios que visiten tu sitio. Trabajamos la sencillez evitando contenidos duplicados o de poco valor, es decir, buscamos la excelente experiencia de usuario (UX), para que los que entren en tu página web se puedan sentir a gusto gracias a la agradable visibilidad y usabilidad que percibirán gracias al excelente trabajo realizado. Obteniendo además un buen rendimiento de carga de la web
+<section class="seo__home__info-2 center-content l-section m-top-sect l-container">
+    <article class="seo__home__info-2--col1 p-auto">
+        <h3 class="seo__home__info-2--title m-b">En Chips Designs nos adaptamos a tus necesidades y juntos podemos hacer que no sólo <br>tus amigos o familiares sean los que visiten a tu página web</h3>
+        <p class="left-content icon-check">Nos enfocamos en el posicionamiento de tu página web, marca, negocio  o  tienda on-line para que no solo la conozcan tus amigos y familiares. Con trabajo, tiempo y dedicación de nosotros más la colaboración de nuestro cliente para poder adaptarnos a sus necesidades, lo convertiremos en una realidad cumpliendo con los objetivos que previamente hayamos aprobado en una propuesta de negocio.</p>
+        <p class="left-content icon-check">Organizamos la información, estructuramos el contenido para que sea flexible y fácil de entender por los usuarios que visiten tu sitio. Trabajamos la sencillez evitando contenidos duplicados o de poco valor, es decir, buscamos la excelente experiencia de usuario (UX), para que los que entren en tu página web se puedan sentir a gusto gracias a la agradable visibilidad y usabilidad que percibirán gracias al excelente trabajo realizado. Obteniendo además un buen rendimiento de carga de la web
         favoreciendo el acceso rápido desde cualquier dispositivo móvil.
         </p>
-        <div class="l-section seo__home--info-2--btn center-block">
+        
+        <div class="seo__home--info-2--btn buttonBox center-block m-b">
             <a href="posicionamiento-seo" class="buttom-1 btn-info-2">Empecemos</a>
         </div>
 
-    </article>
+    <!--</article>-->
 
-    <article class="seo__home--info-2--col2 center-content">
-        <ul class="info__chipsDesigns center-content">
-            <li class="info_chipsDesigns--items left-content">Conoce el proceso de trabajo de <a class="seo__home--link-in" href="posicionamiento-seo" target="_blank">posicionamiento web</a> que ofrecemos.</li>
-            <li class="info__chipsDesigns--items left-content">Hacemos una auditoría 100% gratuita de tu página web y te hacemos una valoración sin compromisos. </li>
+    <!--<article class="seo__home--info-2--col2 center-content">-->
+        <p class="medium m-b">Seguro que estaremos encantados de conocer tu negocio y que nos conozcas a nosotros también.</p>
+        <ul class="seo__home__info-2--action center-content m-b">
+            <li class="items small left-content icon-check">Conoce el proceso de trabajo de <a class="seo__home--link-in" href="posicionamiento-seo" target="_blank">posicionamiento web</a> que ofrecemos.</li>
+            <li class="items small left-content icon-check">Hacemos una auditoría 100% gratuita de tu página web y te hacemos una valoración sin compromisos. </li>
         </ul>
-        <p class="medium">Seguro que estaremos encantados de conocer tu negocio y que nos conozcas a nosotros también.</p>
     </article>
 </section>
             <!-- ************* SEO-HOME SECTION END **************** -->
@@ -139,19 +140,20 @@
 
             <!-- ************* Diseño y desarrollo-HOME SECTION **************** -->
 <section class="web__home__sec-1 l-section l-container center-content">
-    <h1 class="m-top-sect">Diseño y desarrollo de páginas web</h1>
+    
     <div class="web__home__sec-1--items">
-        <article class="item-1">
+        <article class="item-1 m-b l-section">
+            <h1 class="m-top-sect">Diseño y desarrollo de páginas web</h1>
             <div class="m-b">
                 <h2>¿Qué diferencias podemos encontrar entre el Diseño web y el Desarrollo web?</h2>
                 <span class="border__bottom center-block"></span>
             </div>
-            <p class="left-content">Diseño web en la actualidad engloba diseño y desarrollo web. Esto significa que ambas áreas están totalmente        relacionadas. Un sitio web requiere de un buen diseño de páginas para lograr ese aspecto visual atractivo a traves de la optimización de     imágenes, creación de banners, logotipos, iconos, entre otros..., un logotipo que transmita la identidad de tu empresa, para hacer más        agradable y flexible la página web cautivando a los clientes gracias a ese trabajo realizado por el diseñador, Mientras que el     desarrollador   web se encarga de realizar la maquetación de la página, esa parte funcional que está detrás y que el usuario no lo ve   pero es lo que la hace  visible y dinámica. El desarrollador web dependiendo las necesidades y requerimientos del negocio, puede trabajar     con herramientas de CMSs   como Wordpress, Prestashop por nombrar algunas de ellas, usar Frameworks como Bootstrap, Foundation para el  Front-end y Laravel, Python para  el Back-end y  HTML5, CSS3, Java Script, PHP para poder lograr lo que es una creación de página web a  medida.</p>
-            <p class="left-content">Estos son algunas características fundamentales entre las diferencias de un diseñador de páginas web y un       desarrollador de páginas web. Debemos tener claro y ser conscientes como empresa de que un sitio web requiere un trabajo  en equipo entre       diseñadores y desarrolladores para  poder lograr los objetivos y efectividad.</p>
+            <p class="left-content m-b">Diseño web en la actualidad engloba diseño y desarrollo web. Esto significa que ambas áreas están totalmente        relacionadas. Un sitio web requiere de un buen diseño de páginas para lograr ese aspecto visual atractivo a traves de la optimización de     imágenes, creación de banners, logotipos, iconos, entre otros..., un logotipo que transmita la identidad de tu empresa, para hacer más        agradable y flexible la página web cautivando a los clientes gracias a ese trabajo realizado por el diseñador, Mientras que el     desarrollador   web se encarga de realizar la maquetación de la página, esa parte funcional que está detrás y que el usuario no lo ve   pero es lo que la hace  visible y dinámica. El desarrollador web dependiendo las necesidades y requerimientos del negocio, puede trabajar     con herramientas de CMSs   como Wordpress, Prestashop por nombrar algunas de ellas, usar Frameworks como Bootstrap, Foundation para el  Front-end y Laravel, Python para  el Back-end y  HTML5, CSS3, Java Script, PHP para poder lograr lo que es una creación de página web a  medida.</p>
+            <p class="left-content m-b">Estos son algunas características fundamentales entre las diferencias de un diseñador de páginas web y un       desarrollador de páginas web. Debemos tener claro y ser conscientes como empresa de que un sitio web requiere un trabajo  en equipo entre       diseñadores y desarrolladores para  poder lograr los objetivos y efectividad.</p>
         </article>
 
         <article class="l-section item-2">
-            <div class="m-b">
+            <div class="l-section">
                 <h2>¿Qué métodos empleamos en chips designs para el diseño web?</h2>
                 <span class="border__bottom center-block"></span>
             </div>

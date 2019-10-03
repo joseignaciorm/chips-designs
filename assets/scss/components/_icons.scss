@@ -1,3 +1,8 @@
+
+[class*=icon-] {
+    margin-bottom: .7em;
+}
+
 [class*=icon-]::before {
     content: " ";
     display: inline-block;
@@ -14,9 +19,21 @@
 }
 */
 
-.icon-check::before {
-    background-image: url("../img/check-icon.svg");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+.icon-check {
+    position: relative;
+    margin-left: 2em;
+
+    &::before {
+        content:"\2713";
+        position: absolute;
+        left: -1.5em;
+        color: green;
+        font-weight: bold;
+        line-height: 1.4em;
+        /*background-image: url("../img/check-icon.svg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;*/
+    }
 }
+
