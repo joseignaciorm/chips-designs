@@ -27,8 +27,8 @@
             <!-- SEO-HOME SECTION - Block one -->
   <section class="seo__home center-content l-container">
       <article class="">
-        <div class="l-section">
-            <p class="seo__home--txt center-content m-b">Hablaremos un poco de teoría de los fundamentos en posicionamiento SEO y las diferencias entre       Diseño web y desarrollo web</p>
+        <div class="">
+            <p class="seo__home--txt center-content m-b">Hablaremos un poco de teoría de los fundamentos en <strong>posicionamiento SEO</strong> y las diferencias entre <strong>Diseño web y desarrollo web</strong></p>
             <h1 class="seo__home--title center-content">
                 <span class="default-color medium">Empecemos por </span><span   class="color-home-title-1">Posicionamiento </span><span   class="color-home-title-2">SEO</span>
             </h1>
@@ -65,28 +65,28 @@
   <section class="seo__home__block-2 l-section center-content l-container">
     <article class="">
         <div class="seo__home__block-2--content l-section">
-            <div class="seo__home__block-2--col-1">
-                <div class="seo__home__block-2--items">
-                    <div class="seo__home__block-2--sub-title">
+            <div class="col-1">
+                <div class="col-1--items">
+                    <div class="col-1--sub-title l-section--bottom">
                         <h2 class="seo-title">¿Qué debes saber antes de contratar a un consultor <span class="color-home-title-2">SEO</span>?  </h2>
-                        <span class="border__bottom center-block l-section"></span>
+                        <span class="border__bottom center-block"></span>
                     </div>
                 
-                    <div class="seo__home__block-2--item-description">
-                        <p class="left-content seo__home__block-2--item-txt">Contratar a un especialista SEO mejoraría tu sitio web e incluso te podrás ahorrar muchotiempo     pero      también podría dañar la reputación de tu empreza si contratas a un especialista SEO que haga malsu trabajo.      Dicho esto,   antes    de tomar la decisión, nuestra recomendación es que dediques un poco de tutiempo para investigar     acerca de los   fundamentos     básicos que debe tener un experto o consultor SEO, saber que ventajas  te puede aportar    para mejorar tu  sitio web y que    desventajas podrían traer consecuenciasdesfavorables si aplicase malas prácticas (lo  que podría dañar la     imagen y reputación de   tu negocio). </p>
+                    <div class="col-1--item-description">
+                        <p class="left-content col-1--item-txt">Contratar a un especialista SEO mejoraría tu sitio web e incluso te podrás ahorrar muchotiempo     pero      también podría dañar la reputación de tu empreza si contratas a un especialista SEO que haga malsu trabajo.      Dicho esto,   antes    de tomar la decisión, nuestra recomendación es que dediques un poco de tutiempo para investigar     acerca de los   fundamentos     básicos que debe tener un experto o consultor SEO, saber que ventajas  te puede aportar    para mejorar tu  sitio web y que    desventajas podrían traer consecuenciasdesfavorables si aplicase malas prácticas (lo  que podría dañar la     imagen y reputación de   tu negocio). </p>
                     </div>
                 </div>
             </div>
     
-            <div class="seo__home__block-2--col-2">
-                <div class="seo__home__block-2--items">
-                    <div class="seo__home__block-2--sub-title">
+            <div class="col-2">
+                <div class="col-2--items">
+                    <div class="col-2--sub-title l-section--bottom">
                         <h2 class="seo-title">¿Cuándo contratar a un consultor <span class="color-home-title-2">SEO</span>?</h2>
-                        <span class="border__bottom center-block l-section"></span>
+                        <span class="border__bottom center-block"></span>
                     </div>
                 
-                    <div class="seo__home__block-2--item-description">
-                        <p class="left-content seo__home__block-2--item-txt">Contratamos a un especialista SEO cuando queremos mejorar el contenido y experiencia de usuario (UX),   la    carga y navegación rápida, rediseñar la web o creación de nuevas páginas, aumentar el tráfico orgánico y la visibilidad     de tu  sitio web. </p>
+                    <div class="col-2--item-description">
+                        <p class="left-content col-2--item-txt">Contratamos a un especialista SEO cuando queremos mejorar el contenido y experiencia de usuario (UX),   la    carga y navegación rápida, rediseñar la web o creación de nuevas páginas, aumentar el tráfico orgánico y la visibilidad     de tu  sitio web. </p>
                     </div>
                 </div>
             </div>
@@ -94,51 +94,61 @@
     </article>
   </section>
 
+            <!-- ************ 
+                ************ SEO-HOME Container - Block three and four ************
+                                                                        *************** -->
             <!-- SEO-HOME SECTION - Block three -->
-<section class="seo__home__info l-section center-content l-container">
-    <article class="p-auto">
-        <h3 class="seo__home__info--title m-b">Algúnos de los puntos importantes que debes tener en cuenta <br>para contratar un consultor SEO </h3>
-        <ul class="seo__home__info--consultor">
-            <li class="seo__home__info--item left-content icon-check">Primero que haga una auditoría de tu web y te diga que se puede mejorar y por qué, y cuáles son los objetivos a alcanzar en tu negocio.</li>
-            <li class="seo__home__info--item left-content icon-check">Trabajos que haya realizado y la experiencia con otros clientes.</li>
-            <li class="seo__home__info--item left-content icon-check">Tiempos estimados para empezar a ver las mejoras.</li>
-            <li class="seo__home__info--item left-content icon-check">Demostrar que se interesa en tu empresa.</li>
-            <li class="seo__home__info--item left-content icon-check">Que use buenas prácticas y sigue los requerimientos oficiales de SEO.</li>
-        </ul>
-        <div class="seo__home__info--action m-top-sect">
-            <p class="small">Artículo de ayuda de google para contratar a un <a class="seo__home--link-in" href="https://support.google.com/    webmasters/answer/35291" target="_blank">experto SEO</a></p>
-            <p class="small">Si necesitas saber más sobre posicionamiento seo, te dejamos una  <a class="seo__home--link-in" href="https:// static.googleusercontent.com/media/www.google.es/es/es/webmasters/docs/guia_optimizacion_motores_busqueda.pdf" target="_blank">“Guía de  optimización en buscadores (SEO)”</a> oficial de google donde encontrarás toda la documentación necesaria para mejorar tu contenido web.</   p>
-        </div>
-    </article>
-</section>
+<section class="seo__home__info__container">
+    <section class="seo__home__info l-section center-content l-container">
+        <article class="p-auto">
+            <h3 class="seo__home__info--title m-b responsive-l-font">Algúnos de los puntos importantes que debes tener en cuenta para contratar un  consultor SEO </h3>
+            <ul class="seo__home__info--consultor">
+                <li class="seo__home__info--item left-content icon-check">Primero que haga una auditoría de tu web y te diga que se puede mejorar y     por qué, y cuáles son los objetivos a alcanzar en tu negocio.</li>
+                <li class="seo__home__info--item left-content icon-check">Trabajos que haya realizado y la experiencia con otros clientes.</li>
+                <li class="seo__home__info--item left-content icon-check">Tiempos estimados para empezar a ver las mejoras.</li>
+                <li class="seo__home__info--item left-content icon-check">Demostrar que se interesa en tu empresa.</li>
+                <li class="seo__home__info--item left-content icon-check">Que use buenas prácticas y sigue los requerimientos oficiales de SEO.</li>
+            </ul>
+            <div class="seo__home__info--action m-top-sect">
+                <p class="small">Artículo de ayuda de google para contratar a un <a class="seo__home--link-in" href="https://support.google.com/        webmasters/answer/35291" target="_blank">experto SEO</a></p>
+                <p class="small">Si necesitas saber más sobre posicionamiento seo, te dejamos una  <a class="seo__home--link-in" href="https://     static.googleusercontent.com/media/www.google.es/es/es/webmasters/docs/guia_optimizacion_motores_busqueda.pdf" target="_blank">“Guía    de  optimización en buscadores (SEO)”</a> oficial de google donde encontrarás toda la documentación necesaria para mejorar tu  contenido web.</   p>
+            </div>
+        </article>
+    </section>
 
-            <!-- SEO-HOME SECTION Info 2 - Block four -->
-<section class="seo__home__info-2 center-content l-section m-top-sect l-container">
-    <article class="seo__home__info-2--col1 p-auto">
-        <h3 class="seo__home__info-2--title m-b">En Chips Designs nos adaptamos a tus necesidades y juntos podemos hacer que no sólo <br>tus amigos o familiares sean los que visiten a tu página web</h3>
-        <p class="left-content icon-check">Nos enfocamos en el posicionamiento de tu página web, marca, negocio  o  tienda on-line para que no solo la conozcan tus amigos y familiares. Con trabajo, tiempo y dedicación de nosotros más la colaboración de nuestro cliente para poder adaptarnos a sus necesidades, lo convertiremos en una realidad cumpliendo con los objetivos que previamente hayamos aprobado en una propuesta de negocio.</p>
-        <p class="left-content icon-check">Organizamos la información, estructuramos el contenido para que sea flexible y fácil de entender por los usuarios que visiten tu sitio. Trabajamos la sencillez evitando contenidos duplicados o de poco valor, es decir, buscamos la excelente experiencia de usuario (UX), para que los que entren en tu página web se puedan sentir a gusto gracias a la agradable visibilidad y usabilidad que percibirán gracias al excelente trabajo realizado. Obteniendo además un buen rendimiento de carga de la web
-        favoreciendo el acceso rápido desde cualquier dispositivo móvil.
-        </p>
-        
-        <div class="seo__home--info-2--btn buttonBox center-block m-b">
-            <a href="posicionamiento-seo" class="buttom-1 btn-info-2">Empecemos</a>
-        </div>
+                <!-- SEO-HOME SECTION Info 2 - Block four -->
+    <section class="seo__home__info-2 center-content l-section m-top-sect l-container">
+        <article class="seo__home__info-2--col1 p-auto">
+            <h3 class="seo__home__info-2--title m-b responsive-l-font">Nos adaptamos a tus necesidades y hacemos que no sólo tus amigos o familiares    sean los que visiten a tu página web</h3>
+            <p class="left-content icon-check">Nos enfocamos en el posicionamiento de tu página web, marca, negocio  o  tienda on-line para que no  solo la conozcan tus amigos y familiares. Con trabajo, tiempo y dedicación de nosotros más la colaboración de nuestro cliente para poder     adaptarnos a sus necesidades, lo convertiremos en una realidad cumpliendo con los objetivos que previamente hayamos aprobado en una     propuesta de negocio.</p>
+            <p class="left-content icon-check">Organizamos la información, estructuramos el contenido para que sea flexible y fácil de entender por     los usuarios que visiten tu sitio. Trabajamos la sencillez evitando contenidos duplicados o de poco valor, es decir, buscamos la    excelente experiencia de usuario (UX), para que los que entren en tu página web se puedan sentir a gusto gracias a la agradable    visibilidad y usabilidad que percibirán gracias al excelente trabajo realizado. Obteniendo además un buen rendimiento de carga de la web
+            favoreciendo el acceso rápido desde cualquier dispositivo móvil.
+            </p>
 
-    <!--</article>-->
+            <div class="seo__home--info-2--btn buttonBox center-block m-b">
+                <a href="posicionamiento-seo" class="buttom-1 btn-info-2">Empecemos</a>
+            </div>
 
-    <!--<article class="seo__home--info-2--col2 center-content">-->
-        <p class="medium m-b">Seguro que estaremos encantados de conocer tu negocio y que nos conozcas a nosotros también.</p>
-        <ul class="seo__home__info-2--action center-content m-b">
-            <li class="items small left-content icon-check">Conoce el proceso de trabajo de <a class="seo__home--link-in" href="posicionamiento-seo" target="_blank">posicionamiento web</a> que ofrecemos.</li>
-            <li class="items small left-content icon-check">Hacemos una auditoría 100% gratuita de tu página web y te hacemos una valoración sin compromisos. </li>
-        </ul>
-    </article>
+        <!--</article>-->
+
+        <!--<article class="seo__home--info-2--col2 center-content">-->
+            <p class="medium m-b">Seguro que estaremos encantados de conocer tu negocio y que nos conozcas a nosotros también.</p>
+            <ul class="seo__home__info-2--action center-content m-b">
+                <li class="items small left-content icon-check">Conoce el proceso de trabajo de <a class="seo__home--link-in"   href="posicionamiento-seo" target="_blank">posicionamiento web</a> que ofrecemos.</li>
+                <li class="items small left-content icon-check">Hacemos una auditoría 100% gratuita de tu página web y te hacemos una valoración sin    compromisos. </li>
+            </ul>
+        </article>
+    </section>
 </section>
             <!-- ************* SEO-HOME SECTION END **************** -->
+            <!-- ************ 
+                ************ END SEO-HOME Container - Block three and four ************
+                                                                        *************** -->
 
 
-            <!-- ************* Diseño y desarrollo-HOME SECTION **************** -->
+            <!-- ************ 
+                ************ Diseño y desarrollo-HOME SECTION ************
+                                                                        *************** -->
 <section class="web__home__sec-1 l-section l-container center-content">
     
     <div class="web__home__sec-1--items">

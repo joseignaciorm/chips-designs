@@ -18,6 +18,11 @@
         width: 75%;margin: 0 auto;
     }
 
+    &--txt {
+        font-size: var(--h2-font-size);
+        color: rgba($color-texto, .915);
+    }
+
     &--title {
         font-size: var(--h2-font-size);
     }

@@ -32,21 +32,46 @@
         padding-bottom: 1em;
         display: grid;
         margin-bottom: 2em;
-        grid-template-columns: repeat(auto-fill, minmax(200px, 400px));
-        justify-content: center;
+        //grid-template-columns: repeat(auto-fill, minmax(200px, 400px));
+        grid-template-columns: repeat(12, 1fr);
         justify-items: center;
-        grid-gap: 4.5em 2em;
+        align-items: auto;
+        grid-gap: 2em 1em;
+
+        @include rwd(xxlarge) {
+            padding-left: 5em;
+            padding-right: 5em;
+        }
 
         &--items {
+            width: 96%;
             text-align: center;
             background-color: rgba(#000, .3);
             box-shadow: 10px 10px 10px -10px #000;
             padding: 1em .5em;
+            //margin: 0 1em;
             border-radius: 4px;
+            grid-column: span 12;
 
             display: grid;
             row-gap: .5em;
             grid-template-rows: 25% 55% 20%;
+
+            @include rwd(850px) {
+                grid-column: span 6;
+
+                &:last-child {
+                    grid-column: 2 / span 10;
+                }
+            }
+
+            @include rwd(xxlarge) {
+                grid-column: span 4;
+
+                &:last-child {
+                    grid-column: span 4;
+                }
+            }
 
             & .border__bottom {
                 margin: 1em auto;

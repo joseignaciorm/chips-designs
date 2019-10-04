@@ -1,24 +1,64 @@
   /************** Section 3 -  Block three - HOME ****************/
-  .seo__home__info{
-      padding: $padding-main-content;
-      color: var(--color-border);
-      //background-image: linear-gradient(141deg,#19e098 75%, #86f5cc 51%, #9fb8ad 0%);
-      background-color: rgba($color-oscuro-alt, 1);
+  
+  .seo__home__info__container {
+    display: grid;
 
-      &--title {
-        font-size: $title-big-size;
-      }
+    @include rwd(large) {
+      grid-template-rows: 1fr;
+      grid-template-columns: repeat(12, 1fr);
+    }
 
-      &--item {
-          margin-bottom: 1em;
-      }
+    & .seo__home__info{
+        color: var(--color-border);
+        //background-image: linear-gradient(141deg,#19e098 75%, #86f5cc 51%, #9fb8ad 0%);
+        background-color: rgba($color-oscuro-alt, 1);
+ 
+        &--item {
+            margin-bottom: 1em;
+        }
+  
+        &--action {
+            color: var(--color-oscuro-alt);
+            background-color: var(--color-body-bg);
+            padding: .5em 1em;
+        }
+    } // En seo__home__info
 
-      &--action {
-          color: var(--color-oscuro-alt);
-          background-color: var(--color-body-bg);
-          padding: .5em 1em;
-      }
+    /************** Section 4 -  Block fouth - HOME ****************/
+
+  & .seo__home__info-2{
+    color: var(--color-border);
+    //background-image: linear-gradient(141deg,#19e098 75%, #86f5cc 51%, #9fb8ad 0%);
+    background-color: rgba($color-oscuro-alt, 1);
+
+    &--item {
+        margin-bottom: 1em;
+    }
+
+    &--action {
+        color: var(--color-oscuro-alt);
+        background-color: var(--color-body-bg);
+        padding: .5em 1em;
+
+        & .icon-check {
+            line-height: 1.2em;
+        }
+    }
+    &--btn {
+        width: 200px;
+    }
+
+  } // End seo__home__info-2
+
+  & .seo__home__info, & .seo__home__info-2 {
+    @include rwd(large) {
+       grid-column: span 6;
+    }
   }
+
+} // End seo__home__info__container
+  
+  
 
 
 

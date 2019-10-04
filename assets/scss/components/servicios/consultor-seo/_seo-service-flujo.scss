@@ -1,0 +1,31 @@
+/* 
+    ********** Block seo__service__sec_4 - Flujo de trabajo ***********
+*/
+
+.seo__service__flujo {
+
+    &--blk1 {
+        width: 75%;
+    }
+
+    & .txt {
+        margin-bottom: 1em;
+        color: rgba($color-texto, .8);
+    }
+
+    &--detail {
+        display: grid;
+        row-gap: 2.5em;
+
+        & .col-2{
+            justify-self: center;
+        }
+
+        @include rwd(992px) {
+            & .detail-box {
+                display: flex;
+            }
+        }
+    }
+}
+

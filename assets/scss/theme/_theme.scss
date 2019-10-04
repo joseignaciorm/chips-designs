@@ -1,4 +1,14 @@
-/* Estilos del THEME */
+/* THEME Styles */
+
+/* ******** Font size style ************** */
+
+.responsive-l-font {
+    font-size: var(--medium-font-size);
+
+    @include rwd(large) {
+        font-size: var(--large-font-size);
+    }
+}
 .small {
     font-size: var(--small-font-size);
 }
