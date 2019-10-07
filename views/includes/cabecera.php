@@ -41,9 +41,9 @@
                         <li class="navbar__item--child last-child"><a class="navbar__link--child" href="consultor-seo">Posicionamiento SEO</a></li>
                     </ul>
                 </li>
-                <li class="navbar__item"><a class="navbar__link" href="http://">Chips Designs</a></li>
-                <li class="navbar__item"><a class="navbar__link" href="http://">Portafolio</a></li>
-                <li class="navbar__item"><a class="navbar__link" href="http://">Contacto</a></li>
+                <li class="navbar__item"><a class="navbar__link" href="chip-designs">Chip Designs</a></li>
+                <li class="navbar__item"><a class="navbar__link" href="portfolio">Portfolio</a></li>
+                <li class="navbar__item"><a class="navbar__link" href="contacto">Contacto</a></li>
             </ul>
         </nav>
     </div>

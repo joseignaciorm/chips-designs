@@ -19,6 +19,12 @@
             require_once './views/includes/pie.php';
                 
         }
+
+        public function contacto() {
+            require_once './views/includes/cabecera.php'; 
+            require_once './views/paginas/contacto.php';
+            require_once './views/includes/pie.php';
+        }
         
 }
 

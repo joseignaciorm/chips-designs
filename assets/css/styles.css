@@ -459,6 +459,7 @@ img {
   .btn-web-action:hover {
     color: var(--color-body-bg); }
 
+/* Button formulario page consultoría seo */
 /* ************** Header *************** */
 /* ********************** HEADER ********************* */
 .main-header {
@@ -1413,11 +1414,10 @@ img {
 .seo__service__sec_3 .content-2 {
   color: rgba(56, 34, 21, 0.8);
   background-color: #fff;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding-top: 3.5em;
+  padding-bottom: 3.5em;
   display: -ms-grid;
   display: grid;
-  margin-bottom: 2em;
   -ms-grid-columns: (1fr)[12];
   grid-template-columns: repeat(12, 1fr);
   justify-items: center;
@@ -1496,12 +1496,142 @@ img {
 .seo__service__flujo--detail {
   display: -ms-grid;
   display: grid;
-  row-gap: 2.5em; }
+  row-gap: 3.5em; }
   .seo__service__flujo--detail .col-2 {
-    -ms-grid-column-align: center;
-    justify-self: center; }
+    text-align: center; }
   @media screen and (min-width: 992px) {
     .seo__service__flujo--detail .detail-box {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex; } }
+      display: -ms-grid;
+      display: grid;
+      -webkit-column-gap: 2.5em;
+      column-gap: 2.5em;
+      -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr); }
+      .seo__service__flujo--detail .detail-box .col-1, .seo__service__flujo--detail .detail-box .col-2 {
+        width: 80%; }
+      .seo__service__flujo--detail .detail-box:nth-child(odd) .col-1 {
+        text-align: right;
+        -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+        -ms-grid-column-align: self-end;
+        justify-self: self-end; }
+      .seo__service__flujo--detail .detail-box:nth-child(odd) .col-2 {
+        text-align: left;
+        -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+        -ms-grid-column-align: self-start;
+        justify-self: self-start; }
+      .seo__service__flujo--detail .detail-box:nth-child(even) .col-2 {
+        -ms-grid-row: 1;
+        grid-row: 1;
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 1;
+        grid-column: 1 / span 1;
+        text-align: right;
+        -ms-grid-column-align: self-end;
+        justify-self: self-end; }
+      .seo__service__flujo--detail .detail-box:nth-child(even) .col-1 {
+        -ms-grid-row: 1;
+        grid-row: 1;
+        -ms-grid-column: 2;
+        -ms-grid-column-span: 1;
+        grid-column: 2 / span 1;
+        -ms-grid-row-align: center;
+        align-self: center; } }
+
+/* 
+    ********** Block seo__service__sec_5 - Call to action ***********
+*/
+.seo__service__action {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, auto-fill);
+  row-gap: 2em; }
+  @media screen and (min-width: 992px) {
+    .seo__service__action {
+      -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: repeat(2, auto-fill);
+      justify-items: center; }
+      .seo__service__action--description-1 {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 2;
+        grid-column: 1 / span 2;
+        -ms-grid-column-align: center;
+        justify-self: center;
+        -ms-grid-row: 1;
+        grid-row: 1; }
+      .seo__service__action--description-2 {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 1;
+        grid-column: 1 / span 1;
+        -ms-grid-row: 2;
+        grid-row: 2; }
+      .seo__service__action--form {
+        -ms-grid-column: 2;
+        -ms-grid-column-span: 1;
+        grid-column: 2 / span 1;
+        -ms-grid-row: 2;
+        grid-row: 2; } }
+  .seo__service__action--description-2 {
+    text-align: center; }
+  .seo__service__action--form .form {
+    padding: 1em;
+    -webkit-box-shadow: 0 0 0 2px;
+    box-shadow: 0 0 0 2px; }
+  .seo__service__action--form .form--item {
+    margin-bottom: 1.2em; }
+  .seo__service__action--form .tag-name, .seo__service__action--form .tag-email {
+    display: inline-block;
+    width: 80px; }
+  .seo__service__action--form .form-style-name, .seo__service__action--form .form-style-email {
+    border: 0;
+    height: 25px;
+    border-radius: 5px; }
+  .seo__service__action--form .form-style-consulta {
+    border: 0;
+    width: 100%;
+    border-radius: 5px; }
+
+/* ************** Contact Page *************** */
+/* ************* Banner contact styles *************** */
+.banner__cto {
+  background-image: -webkit-linear-gradient(309deg, rgba(255, 226, 63, 0.8), rgba(242, 163, 12, 0.6));
+  background-image: -o-linear-gradient(309deg, rgba(255, 226, 63, 0.8), rgba(242, 163, 12, 0.6));
+  background-image: linear-gradient(141deg, rgba(255, 226, 63, 0.8), rgba(242, 163, 12, 0.6));
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr;
+  grid-template-rows: 1fr;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.banner__cto--box {
+  font-size: 3vw;
+  text-align: center; }
+  .banner__cto--box .title {
+    font-size: 2.3em; }
+  .banner__cto--box .subtitle {
+    font-size: 1.3em; }
+  @media screen and (min-width: 640px) {
+    .banner__cto--box {
+      font-size: 2vw; }
+    .banner__cto--box .subtitle {
+      font-size: 1.2em; } }
+  @media screen and (min-width: 1024px) {
+    .banner__cto--box {
+      font-size: 1.5vw; } }
+  @media screen and (min-width: 1440px) {
+    .banner__cto--box {
+      font-size: 1vw; } }
+
+/* ************* Section two - Action info contact styles *************** */
+/* ************* Section three - Action info contact Form styles *************** */

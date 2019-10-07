@@ -2,7 +2,7 @@
   <footer class="footer--container">
             <section class="l-section l-container footer__before">
                 <div class="footer__info col__one">
-                    <h4 class="footer__info--tittle">Chips Designs</h4>
+                    <h4 class="footer__info--tittle">Chip Designs</h4>
                     <p class="footer__info--txt">
                         Especialistas y autodidactas enfocados en el posicionamiento web - seo, diseño web, desarrollo web y marketing digital.
                         Nos apaciona la investigación, estar al día con las actualizaciones para brindar el mejor de los servicios a nuestros clientes.
@@ -37,7 +37,7 @@
                 </div>
             </section>
             <section class="l-section l-container footer__after">
-                <div class="footer__rights">Diseño web - Chips Designs</div>
+                <div class="footer__rights">Diseño web - Chip Designs</div>
             </section>
         </footer>
     <!-- FOOTER END -->

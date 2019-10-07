@@ -15,16 +15,48 @@
 
     &--detail {
         display: grid;
-        row-gap: 2.5em;
+        row-gap: 3.5em;
 
-        & .col-2{
-            justify-self: center;
+        & .col-2 {
+            text-align: center;
         }
 
         @include rwd(992px) {
             & .detail-box {
-                display: flex;
+                display: grid;
+                column-gap: 2.5em;
+                grid-template-columns: repeat(2, 1fr);
+
+                & .col-1, & .col-2 {
+                    width: 80%;
+                }
+
+                &:nth-child(odd) .col-1 {
+                    text-align: right;
+                    align-self: center;
+                    justify-self: self-end;
+                }
+
+                &:nth-child(odd) .col-2 {
+                    text-align: left;
+                    align-self: center;
+                    justify-self: self-start;
+                }
+
+                &:nth-child(even) .col-2 {
+                    grid-row: 1;
+                    grid-column: 1 / span 1;
+                    text-align: right;
+                    justify-self: self-end;
+                }
+
+                &:nth-child(even) .col-1 {
+                    grid-row: 1;
+                    grid-column: 2 / span 1;
+                    align-self: center;
+                }
             }
+
         }
     }
 }

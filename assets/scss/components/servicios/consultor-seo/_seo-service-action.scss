@@ -1,0 +1,65 @@
+/* 
+    ********** Block seo__service__sec_5 - Call to action ***********
+*/
+
+.seo__service__action {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto-fill);
+    row-gap: 2em;
+
+    @include rwd(992px) {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(2, auto-fill);
+        justify-items: center;
+
+        &--description-1 {
+            grid-column: 1 / span 2;
+            justify-self: center;
+            grid-row: 1;
+        }
+
+        &--description-2 {
+            grid-column: 1 / span 1;
+            grid-row: 2;
+        }
+
+        &--form {
+            grid-column: 2 / span 1;
+            grid-row: 2;
+        }
+    }
+
+    &--description-2 {
+        text-align: center;
+    }
+
+    &--form {
+
+        & .form {
+            padding: 1em;
+            box-shadow: 0 0 0 2px;
+        }
+
+        & .form--item {
+            margin-bottom: 1.2em;
+        }
+
+        & .tag-name, & .tag-email {
+            display: inline-block;
+            width: 80px;
+        }
+
+        &  .form-style-name, &  .form-style-email {
+            border: 0;
+            height: 25px;
+            border-radius: 5px;
+        }
+
+        &  .form-style-consulta {
+            border: 0;
+            width: 100%;
+            border-radius: 5px;
+        }
+    }
+}
