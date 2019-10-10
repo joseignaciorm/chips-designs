@@ -4,11 +4,22 @@
 
 .responsive-l-font {
     font-size: var(--medium-font-size);
+    font-weight: 600;
+    letter-spacing: .5px;
+
+    @include rwd(992px) {
+        font-size: var(--large-font-size);
+    }
 
     @include rwd(large) {
         font-size: var(--large-font-size);
     }
+
+    @include rwd(xxlarge) {
+        font-size: var(--xxlarge-font-size);
+    }
 }
+
 .small {
     font-size: var(--small-font-size);
 }
@@ -26,8 +37,26 @@
     color: var(--color-texto);
 }
 
+.U-opacity-9 {
+    opacity: 0.9;
+}
+
 .border-b-sec-color {
     border-bottom: 1px solid $border-color;
+}
+
+/* Color para resaltar palabra */
+.enfasis-title-1{
+    $fontSize: 1.2em; 
+    color: var(--color-enfasis-alt-2);
+    font-size: $fontSize;
+}
+
+/* Color para resaltar palabra */
+.enfasis-title-2{
+    $fontSize: 1.2em; 
+    color: var(--color-terciario-2);
+    font-size: $fontSize;
 }
 
 .m-top {

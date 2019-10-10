@@ -30,7 +30,7 @@
         <div class="">
             <p class="seo__home--txt center-content m-b">Hablaremos un poco de teoría de los fundamentos en <strong>posicionamiento SEO</strong> y las diferencias entre <strong>Diseño web y desarrollo web</strong></p>
             <h1 class="seo__home--title center-content">
-                <span class="default-color medium">Empecemos por </span><span   class="color-home-title-1">Posicionamiento </span><span   class="color-home-title-2">SEO</span>
+                <span class="default-color medium">Empecemos por </span><span   class="enfasis-title-1">Posicionamiento </span><span   class="enfasis-title-1">SEO</span>
             </h1>
             <div class="seo__home--bg-image center-block"><img class="seo__home--image" src="assets/img/Posicionamiento-seo.png"  alt="Posicionamiento seo"></div>
         </div>

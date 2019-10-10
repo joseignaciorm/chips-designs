@@ -1,1 +1,13 @@
 /* ************* Section two - Action info contact styles *************** */
+
+
+.contact__info__action {
+    background-color: var(--color-gray-darker);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &--description-2 {
+        color: #fff;
+    }
+}

@@ -1,44 +1,65 @@
 /* ************* Banner contact styles *************** */
 .banner__cto {
-    background-image: linear-gradient(141deg, rgba($color-secundario, .8), rgba($color-principal-alt, .6));
+    //background-image: linear-gradient(141deg, rgba($color-secundario, .8), rgba($color-principal-alt, .6));
     display: grid;
     grid-template-rows: 1fr;
-    align-items: center;
+    align-content: center;
     justify-content: center;
-}
-.banner__cto--box {
-    $align-content: center;
-    font-size: 3vw;
-    text-align: $align-content;
+    border-bottom: 1px solid #ddd;
 
-    & .title {
-        font-size: 2.3em;
-    }
-
-    & .subtitle {
-        font-size: 1.3em;
-    }
-
-    @include rwd(medium) {
-        & {
-            font-size: 2vw;
+    &--box {
+        $align-content: left;
+        text-align: $align-content;
+    
+        & .title {
+            font-size: 1.7em;
         }
 
         & .subtitle {
-            font-size: 1.2em;
+            font-size: 1.175em;
         }
     }
 
-    @include rwd(large) {
+    &--image {
+        align-self: center;
+        width: 80%;
+    }
+
+
+    @include rwd(992px) {
         & {
-            font-size: 1.5vw;
+            grid-template-columns: repeat(2, auto-fill);
         }
 
+        &--box {
+            width: 85%;
+            $align-content: left;
+            align-self: flex-start;
+            grid-column: 1 / span 1;
+        
+            & .title {
+                text-align: $align-content;
+                font-size: 1.515em;
+            }
+    
+            & .subtitle {
+                text-align: $align-content;
+                font-size: 1em;
+            }
+        }
+
+        &--image {
+            width: 100%;
+            grid-column: 2 / span 1;
+        }
     }
 
+        
     @include rwd(xxlarge) {
         & {
-            font-size: 1vw;
+            font-size: 1.4rem;
         }
+
     }
+        
 }

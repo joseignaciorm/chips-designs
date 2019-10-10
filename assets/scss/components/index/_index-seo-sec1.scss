@@ -34,18 +34,6 @@
 
 }
 
-
-$fontSize: 1.2em; 
-.color-home-title-1{
-    color: var(--color-enfasis-alt-2);
-    font-size: $fontSize;
-}
-
-.color-home-title-2{
-    color: var(--color-terciario-2);
-    font-size: $fontSize;
-}
-
 .seo__home--link-in {
     color: var(--color-terciario); 
     transition: color .3s;

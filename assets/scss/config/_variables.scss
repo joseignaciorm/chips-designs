@@ -8,6 +8,8 @@ $min-width-main-navbar: 50vw;
 $letter-spacing: -0.015em;
 $padding-main-content: 1rem;
 $title-big-size: 2em;
+$enfasis-title-1: var(--color-enfasis-alt-2);
+$enfasis-title-2: var(--color-terciario-2);
 
 /* Variables SCSS */
 :root{
@@ -33,7 +35,11 @@ $title-big-size: 2em;
     --color-enfasis-alt-2: #19e098; //#2cb5e8 #19CC98
     --color-enfasis-alt-3: #19CC98;
     --color-oscuro: rgb(41, 25, 14);
-    --color-oscuro-alt: #191C1F;
+    //--color-oscuro-light: rgba(41, 25, 14, .9);
+    --color-oscuro-alt: rgba(41, 25, 14, .9); //#191C1F color mas oscuro;
+    --color-gray: #bdbdbd;
+    --color-gray-darker: #53575a;
+    --color-gray-light: #E0E1E1;
     --color-border: #DFE0BF;
     --color-texto: #382215;
     --color-body-bg: #F1F5CA;
@@ -52,7 +58,10 @@ $title-big-size: 2em;
     $color-enfasis-2: #86f5cc;
     $color-enfasis-alt-2: #19e098;
     $color-oscuro: rgb(41, 25, 14);
-    $color-oscuro-alt: #191C1F;
+    $color-oscuro-alt: rgba(41, 25, 14, .9);
+    $color-gray: #bdbdbd;
+    $color-gray-darker: #53575a;
+    $color-gray-light: #E0E1E1;
     $color-border: #DFE0BF;
     $color-texto: #382215;
     $color-body-bg: #F1F5CA;
@@ -80,18 +89,20 @@ $title-big-size: 2em;
 :root{
     --body-font-size: 1rem;
     --small-font-size: .75rem;
-    --medium-font-size: 1.8rem;
-    --large-font-size: 2.5rem;
+    --medium-font-size: 1.4rem;
+    --large-font-size: 1.8rem;
+    --xxlarge-font-size: 2.2rem;
     --h1-font-size: 1.5rem;
     --h2-font-size: 1.5rem;
     --h3-font-size: 1.1rem;
-    //--h4-font-size: 0.75rem;
+    --h4-font-size: 1rem;
     
 
     @include rwd(medium){
         --h1-font-size: 1.5rem;
         --h2-font-size: 2rem;
         --h3-font-size: 1.7rem;
+        --h4-font-size: 1.4rem;
         --body-font-size: 1rem;
         --small-font-size: .8rem;
     }
@@ -100,6 +111,7 @@ $title-big-size: 2em;
         --h1-font-size: 2.25rem;
         --h2-font-size: 2.2rem;
         --h3-font-size: 2rem;
+        --h4-font-size: 1.7rem;
         --body-font-size: 1.2rem;
         --small-font-size: .9rem;
     }
